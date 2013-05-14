@@ -8,11 +8,11 @@ describe('Controller: RabbitHoleCtrl', function() {
     scope;
 
   beforeEach(inject(function($httpBackend) {
-    $httpBackend.whenGET('/data/machineIntel.json').respond({});
-    $httpBackend.whenGET('/data/softDev.json').respond({});
-    $httpBackend.whenGET('/data/entremanureship.json').respond({});
-    $httpBackend.whenGET('/data/frontEnd.json').respond({});
-    $httpBackend.whenGET('/data/backEnd.json').respond({});
+    $httpBackend.whenGET('data/machineIntel.json').respond({});
+    $httpBackend.whenGET('data/softDev.json').respond({});
+    $httpBackend.whenGET('data/entremanureship.json').respond({});
+    $httpBackend.whenGET('data/frontEnd.json').respond({});
+    $httpBackend.whenGET('data/backEnd.json').respond({});
   }));
 
   // Initialize the controller and a mock scope
