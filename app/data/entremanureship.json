@@ -1,0 +1,124 @@
+{
+  "title": ">>> I got my family to feed...",
+  "image": "images/entremanureship/entremanureship1.png",
+  "link": "http://www.youtube.com/watch?v=mEpfyBOdKxU&feature=relmfu",
+  "wonderlands": [
+    {
+      "title": "Misplanning",
+      "image": "images/entremanureship/misplanning2.png",
+      "link": "http://www.youtube.com/watch?v=ZkH5Ak4wAnY",
+      "show": false,
+      "worlds": [
+        {
+          "name": "my top level", 
+          "show": false,
+          "rabbits": [
+            {
+              "name": "some crazy cool", 
+              "link": "http://www.nbcnews.com/"
+            },
+            {
+              "name": "funky dunky stuff", 
+              "link": "http://www.foxnews.com/"
+            },  
+            {
+              "name": "and 1 more time", 
+              "link": "http://www.cnn.com/"
+            } 
+          ] 
+        },
+        {
+          "name": "on the level",
+          "show": false,
+          "rabbits": [
+            {
+              "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            {
+              "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            {
+              "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Mass Manipulation",
+      "image": "images/entremanureship/manipulation.png",
+      "link": "http://www.robertbrownanimation.com/manipulation.htm",
+      "show": false,
+      "worlds": [
+        {
+          "name": "my top level", 
+          "show": false,
+          "rabbits": [
+            {
+              "name": "some crazy cool", 
+              "link": "http://www.nbcnews.com/"
+            },
+            {
+              "name": "funky dunky stuff", 
+              "link": "http://www.foxnews.com/"
+            },  
+            {
+              "name": "and 1 more time", 
+              "link": "http://www.cnn.com/"
+            } 
+          ] 
+        },
+        {
+          "name": "on the level",
+          "show": false,
+          "rabbits": [
+            {
+              "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            {
+              "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            {
+              "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Cooking Da Books",
+      "image": "images/entremanureship/cooking.png",
+      "link": "http://www.federalreserve.gov/",
+      "show": false,
+      "worlds": []
+    },
+    {
+      "title": "Angels and Vultures",
+      "image": "images/entremanureship/angels.png",
+      "link": "http://en.wikipedia.org/wiki/The_Creation_of_Adam",
+      "show": false,
+      "worlds": []
+    },
+    {
+      "title": "The Misfortunes of Others",
+      "image": "images/entremanureship/misfortune.png",
+      "link": "http://snacklepack.files.wordpress.com/2010/03/reality-tv12.jpg",
+      "show": false,
+      "worlds": []
+    },
+    {
+      "title": "The Dismal Science",
+      "image": "images/entremanureship/dismal.png",
+      "link": "http://www.cotswolds.info/strange-things/last-court-jester.shtml",
+      "show": false,
+      "worlds": []
+    }
+  ]
+}
+

@@ -1,0 +1,37 @@
+<div class="rabbit-hole">
+
+  <div>
+    <a ng-href="{{rabbitHoles[holeType].link}}" target="_blank">
+      <img src="{{rabbitHoles[holeType].image}}" />
+      <h2>{{rabbitHoles[holeType].title}}</h2>
+    </a>
+  </div>
+
+  <div class="wonderlands">
+    <div class="wonderland" ng-repeat="wonderland in rabbitHoles[holeType].wonderlands">
+      <a href="{{wonderland.link}}" target="_blank" class="column-{{($index + 1) % 2}}">
+        <img ng-src="{{wonderland.image}}" />
+      </a>
+      <h3 class="pointer" ng-click="toggleWonder(wonderland)">{{wonderland.title}}</h3>
+      <img ng-hide="wonderland.show" ng-src="images/closed-button-{{$index % 2}}.png" class="arrow column-{{$index % 2}} pointer" ng-click="toggleWonder(wonderland)">
+      <img ng-show="wonderland.show" ng-src="images/open-button.png" class="arrow column-{{$index % 2}} pointer" ng-click="toggleWonder(wonderland)">
+
+      <div ng-repeat="world in wonderland.worlds" class="world" ng-show="wonderland.show">
+        <h4 class="pointer" ng-click="toggleWorld(world)">{{world.name}}</h4>
+
+        <ul>
+
+          <li ng-repeat="rabbit in world.rabbits" ng-show="world.show" class="rabbit">
+            <a href="{{rabbit.link}}" target="_blank"><h5>{{rabbit.name}}</h5></a>
+            <a ng-show="rabbit.flash" href="{{rabbit.flash}}"><img src="images/flash-card-icon.png" /></a>
+            <a ng-show="rabbit.comment" href="{{rabbit.comment}}"><img src="images/comment-icon.png" /></a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <div>
+    </div>
+  </div>
+
+</div>

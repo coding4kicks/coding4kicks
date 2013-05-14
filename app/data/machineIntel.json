@@ -1,0 +1,124 @@
+{
+  "title": ">>> Do androids dream of electric sheep?",
+  "image": "images/machine_intel/androids.png",
+  "link": "http://www.amazon.com/gp/product/0345404475/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0345404475&linkCode=as2&tag=coding4kicks-20",
+  "wonderlands": [
+    {
+      "title": "Dig Dug - Data Mining",
+      "image": "images/machine_intel/datamining.png",
+      "link": "http://www.free80sarcade.com/digdug.php",
+      "show": false,
+      "worlds": [
+        {
+          "name": "my top level", 
+          "show": false,
+          "rabbits": [
+            {
+              "name": "some crazy cool", 
+              "link": "http://www.nbcnews.com/"
+            },
+            {
+              "name": "funky dunky stuff", 
+              "link": "http://www.foxnews.com/"
+            },  
+            {
+              "name": "and 1 more time", 
+              "link": "http://www.cnn.com/"
+            } 
+          ] 
+        },
+        {
+          "name": "on the level",
+          "show": false,
+          "rabbits": [
+            {
+              "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            {
+              "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            {
+              "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "HAL - Machine Learning",
+      "image": "images/machine_intel/machinelearning.png",
+      "link": "http://www.youtube.com/watch?v=HwBmPiOmEGQ",
+      "show": false,
+      "worlds": [
+        {
+          "name": "my top level", 
+          "show": false,
+          "rabbits": [
+            {
+              "name": "some crazy cool", 
+              "link": "http://www.nbcnews.com/"
+            },
+            {
+              "name": "funky dunky stuff", 
+              "link": "http://www.foxnews.com/"
+            },  
+            {
+              "name": "and 1 more time", 
+              "link": "http://www.cnn.com/"
+            } 
+          ] 
+        },
+        {
+          "name": "on the level",
+          "show": false,
+          "rabbits": [
+            {
+              "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            {
+              "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            {
+              "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        }
+      ]
+    },
+    {
+      "title": "Leading the Blind - CV",
+      "image": "images/machine_intel/computervision.png",
+      "link": "http://web.media.mit.edu/~minsky/papers/Internal%20Grounding.html",
+      "show": false,
+      "worlds": []
+    },
+    {
+      "title": "Data Robery - IR",
+      "image": "images/machine_intel/informationretrievel.png",
+      "link": "https://www.google.com/",
+      "show": false,
+      "worlds": []
+    },
+    {
+      "title": "Follow the Herd - Networks",
+      "image": "images/machine_intel/networks.png",
+      "link": "https://www.facebook.com/",
+      "show": false,
+      "worlds": []
+    },
+    {
+      "title": "WTF",
+      "image": "images/machine_intel/mathematics.png",
+      "link": "http://www.gogeometry.com/Eulerformula.htm",
+      "show": false,
+      "worlds": []
+    }
+  ]
+}
+

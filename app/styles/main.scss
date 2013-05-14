@@ -1,0 +1,649 @@
+@import "compass_twitter_bootstrap";
+
+@font-face {
+    font-family: 'dijkstraregular';
+    src: url('fonts/dijkstra-webfont.eot');
+    src: url('fonts/dijkstra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dijkstra-webfont.woff') format('woff'),
+         url('fonts/dijkstra-webfont.ttf') format('truetype'),
+         url('fonts/dijkstra-webfont.svg#dijkstraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background: black;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles 
+   ========================================================================== */
+
+
+h2 {
+  font-family: 'dijkstraregular';
+  font-weight: normal;
+  color: #3333DD;
+}
+
+h3 {
+  font-family: 'dijkstraregular';
+  font-weight: normal;
+  color: #DD3333;
+}
+
+h4 {
+  font-family: 'arial', 'helvetica', 'sans-serif';
+  color: #0000CC;
+}
+
+h5 {
+  font-family: 'arial', 'helvetica', 'sans-serif';
+  font-weight: normal;
+  color: #FF0000;
+}
+
+
+/* ------------ LAYOUT ---------------*/
+
+#maincontainer{
+width: 979px; /*Width of main container*/
+margin: 0 auto; /*Center container on page*/
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+#contentcolumn{
+margin: 0 223px 0 223px; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+}
+
+#leftcolumn{
+float: left;
+width: 223px; /*Width of left column in pixel*/
+margin-left: -979px; /*Set margin to that of -(MainContainerWidth)*/
+}
+
+#rightcolumn{
+float: left;
+width: 223px; /*Width of right column*/
+margin-left: -223px; /*Set left margin to -(RightColumnWidth)*/
+}
+
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+text-align: center;
+}
+
+/* ------------ MAIN PAGE---------------*/
+
+#c4k-title {
+    background-image: url("../images/index/c4k-title.png");
+    width: 240px;
+    height: 50px;
+    color: red;
+    margin: 80px auto 0px auto;
+}
+
+#rabbit {
+    width: 131px; /* Go Wildcats */
+    height: 131px;
+    margin: 20px auto 0px auto;
+}
+
+#tricky-words {
+    background-image: url("../images/index/tricky-words.png");
+    width: 330px;
+    height: 50px;
+    color: blue;
+    margin: 20px 95px 0px;
+}
+
+#identity {
+    background-image: url("../images/index/identity.png");
+    width: 50px;
+    height: 20px;
+    color: blue;
+    margin: 20px 240px 0px;
+}
+
+#buy-buy-buy {
+    width: 160px;
+    margin: 0px auto;
+    
+}
+#please-buy {
+    position: relative;
+    background-image: url("../images/index/please-buy.png");
+    width: 160px;
+    height: 35px;
+    color: red;
+    margin: 50px 15px 0px;
+    z-index: 5;
+}
+#buy-pic {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: -9px;
+    z-index: 4;
+}
+
+#machinations {
+    width: 160px;
+    margin: 0px auto;
+    
+}
+#machine-words {
+    position: relative;
+    width: 160px;
+    height: 35px;
+    color: red;
+    margin: 50px 15px 0px;
+    z-index: 5;
+    background-image: url("../images/index/machine-words.png");
+
+}
+#machine-pic {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: -9px;
+    z-index: 4;
+}
+
+#puddy {
+    width: 160px;
+    margin: 0px auto;
+    
+}
+#soft-words {
+    position: relative;
+    background-image: url("../images/index/soft-words.png");
+    width: 160px;
+    height: 35px;
+    color: red;
+    margin: 75px 15px 0px;
+    z-index: 5;
+}
+#soft-pic {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: -9px;
+    z-index: 4;
+}
+
+#poo-poo-you {
+    width: 165px;
+    margin: 0px auto;
+    
+}
+#manure-words {
+    position: relative;
+    background-image: url("../images/index/manure-words.png");
+    width: 165px;
+    height: 35px;
+    color: red;
+    margin: 75px 15px 0px;
+    z-index: 5;
+}
+#manure-pic {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: -9px;
+    z-index: 4;
+}
+
+#slick-willy {
+    width: 160px;
+    margin: 0px auto;
+    
+}
+#front-words {
+    position: relative;
+    background-image: url("../images/index/front-words.png");
+    width: 160px;
+    height: 35px;
+    color: red;
+    margin: 50px 13px 0px;
+    z-index: 5;
+}
+#front-pic {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: -9px;
+    z-index: 4;
+}
+
+#wizards {
+    width: 160px;
+    margin: 0px auto;
+    
+}
+#back-words {
+    position: relative;
+    background-image: url("../images/index/back-words.png");
+    width: 160px;
+    height: 35px;
+    color: red;
+    margin: 75px 15px 0px;
+    z-index: 5;
+}
+#back-pic {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: -9px;
+    z-index: 4;
+}
+
+#do-not-listen {
+    width: 160px;
+    margin: 0px auto;
+    
+}
+#bad-words {
+    position: relative;
+    background-image: url("../images/index/bad-words.png");
+    width: 160px;
+    height: 35px;
+    color: red;
+    margin: 75px 15px 0px;
+    z-index: 5;
+}
+#bad-pic {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: -9px;
+    z-index: 4;
+}
+
+#whoami {
+    position: relative;
+    background-image: url("../images/index/whoami.png");
+    width: 160px;
+    height: 35px;
+    color: red;
+    margin-top: 75px;
+}
+
+#digress {
+    position: relative;
+    float: right;
+    background-image: url("../images/index/i-digress.png");
+    width: 160px;
+    height: 35px;
+    color: red;
+    margin-top: 75px;
+    margin-right: -15px;
+}
+
+/* ------------ SUB PAGES---------------*/
+
+.rabbit-hole {
+  width: 979px; 
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.wonderland {
+  padding: 20px 0px;
+}
+
+.wonderlands {
+
+  width: 600px;
+  margin: 0 auto;
+
+  h3, h4, h5, img {
+    display: inline;
+    padding: 0px 10px;
+  }
+
+  .arrow {
+    padding: 0px 43px;
+  }
+}
+
+.world {
+  text-align: left;
+  margin-left: 30%;
+}
+
+.rabbit {
+  
+  img {
+    padding: 10px 0px;
+  }
+}
+
+.column-1 {
+  float: left;
+}
+
+.column-0 {
+  float: right;
+}
+
+.whoami {
+
+  text-align: center;
+
+  div, h3 {
+    display: inline-block;
+    padding: 0px 25px;
+  }
+
+  h2 {
+    padding: 50px 0px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.center-list {
+  text-align: center;
+  padding: 20px;
+
+  h2 {
+    padding-top: 20px;
+  }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
