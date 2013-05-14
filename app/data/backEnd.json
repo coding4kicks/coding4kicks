@@ -16,16 +16,19 @@
             {
               "name": "some crazy cool", 
               "link": "http://www.nbcnews.com/",
-              "flash": "http://www.coding4kicks.com/",
+              "flash": "data/flashcards/test.json",
               "comment": "http://www.coding4kicks.com/"
             },
             {
               "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+              "link": "http://www.foxnews.com/",
+              "comment": "http://www.coding4kicks.com/"
             },  
             {
               "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
+              "link": "http://www.cnn.com/",
+              "flash": "http://www.coding4kicks.com/",
+              "comment": "http://www.coding4kicks.com/"
             } 
           ] 
         },

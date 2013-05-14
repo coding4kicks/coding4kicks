@@ -23,6 +23,7 @@
 
           <li ng-repeat="rabbit in world.rabbits" ng-show="world.show" class="rabbit">
             <a href="{{rabbit.link}}" target="_blank"><h5>{{rabbit.name}}</h5></a>
+            <span flashcards data="data/flashcards/test.json" src="images/flash-card-icon.png"></span>
             <a ng-show="rabbit.flash" href="{{rabbit.flash}}"><img src="images/flash-card-icon.png" /></a>
             <a ng-show="rabbit.comment" href="{{rabbit.comment}}"><img src="images/comment-icon.png" /></a>
           </li>
