@@ -8,6 +8,7 @@
   </div>
 
   <div class="wonderlands">
+
     <div class="wonderland" ng-repeat="wonderland in rabbitHoles[holeType].wonderlands">
       <a href="{{wonderland.link}}" target="_blank" class="column-{{($index + 1) % 2}}">
         <img ng-src="{{wonderland.image}}" />
@@ -23,8 +24,7 @@
 
           <li ng-repeat="rabbit in world.rabbits" ng-show="world.show" class="rabbit">
             <a href="{{rabbit.link}}" target="_blank"><h5>{{rabbit.name}}</h5></a>
-            <span flashcards data="{{rabbit.flash}}" src="images/flash-card-icon.png"></span>
-            <!--<a ng-show="rabbit.flash" href="{{rabbit.flash}}"><img src="images/flash-card-icon.png" /></a>-->
+            <span ng-show="rabbit.flash" flashcards data="{{rabbit.flash}}" src="images/flash-card-icon.png"></span>
             <a ng-show="rabbit.comment" href="{{rabbit.comment}}"><img src="images/comment-icon.png" /></a>
           </li>
 
