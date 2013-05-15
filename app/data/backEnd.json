@@ -17,18 +17,18 @@
               "name": "some crazy cool", 
               "link": "http://www.nbcnews.com/",
               "flash": "data/flashcards/test.json",
-              "comment": "http://www.coding4kicks.com/"
+              "comment": "#/disqus/web/test1"
             },
             {
               "name": "funky dunky stuff", 
               "link": "http://www.foxnews.com/",
-              "comment": "http://www.coding4kicks.com/"
+              "comment": "#/disqus/web/test2"
             },  
             {
               "name": "and 1 more time", 
               "link": "http://www.cnn.com/",
               "flash": "http://www.coding4kicks.com/",
-              "comment": "http://www.coding4kicks.com/"
+              "comment": "#/disqus"
             } 
           ] 
         },
