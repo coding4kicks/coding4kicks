@@ -10,6 +10,7 @@
     parts taken from: http://github.com/mikemaccana/python-docx
 """
 
+import os
 import sys
 import json
 
@@ -23,11 +24,6 @@ def grab_text_from_doc(path_to_doc):
         print("Bad input file.")
         exit()
     doc_text = getdocumenttext(doc)
-    #print doc_text
-    #text_list = []
-    #for text in doc_text:
-    #    text_list.append(text.encode("utf-8"))
-    #return text_list
     return doc_text
 
 def process_text(doc_text):
@@ -51,6 +47,12 @@ def process_text(doc_text):
     flashcards['cards'] = dict_seq
     return flashcards
 
+def save_as_json(flashcards, json_file):
+    """Convert dict to json and save flashcards."""
+    flashcard_json = json.dumps(flashcards)
+    with open(json_file, 'w') as f:
+        f.write(flashcard_json)
+    
 def _get_directories():
     """Return directories for word docs and json."""
     root_dir = os.path.realpath(__file__).partition('tools')[0]
@@ -62,9 +64,11 @@ def _get_directories():
 if __name__ == '__main__':
 
     doc_name = sys.argv[1]
+    json_name = doc_name.rpartition('.')[0] + '.json'
     doc_dir, json_dir = _get_directories()
     path_to_doc = doc_dir + doc_name
+    path_to_json = json_dir + json_name
 
     doc_text = grab_text_from_doc(path_to_doc)
     flashcard_dict = process_text(doc_text)
-    #print text_list
+    save_as_json(flashcard_dict, path_to_json)
