@@ -160,7 +160,6 @@
             { "name": "*args and **kwargs", 
               "link": "http://www.saltycrane.com/blog/2008/01/how-to-use-args-and-kwargs-in-python/"
             }
-
           ] 
         },
         { "name": "OOP Style", "show": false,
@@ -173,8 +172,60 @@
               "link": "http://stackoverflow.com/questions/100003/what-is-a-metaclass-in-python/6581949#6581949"
             }
           ] 
+        },
+        { "name": "Organization", "show": false,
+          "rabbits": [
+            { "name": "Essential Reference Ch. 8", 
+              "link": "http://www.amazon.com/gp/product/0672329786/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0672329786&linkCode=as2&tag=coding4kicks-20",
+              "comment": "#/disqus/python/essential-ref"
+            }          
+          ] 
+        },
+        { "name": "Std Lib", "show": false,
+          "rabbits": [
+            { "name": "Logging", 
+              "link": "http://www.blog.pythonlibrary.org/2012/08/02/python-101-an-intro-to-logging/"
+            },
+            { "name": "Paths", 
+              "link": "http://docs.python.org/library/os.path.html"
+            }
+          ] 
+        },
+        { "name": "Tools", "show": false,
+          "rabbits": [
+            { "name": "Documenting - Sphinx", 
+              "link": "http://sphinx-doc.org/"
+            },
+            { "name": "Testing - Nose", 
+              "link": "http://ivory.idyll.org/articles/nose-intro.html"
+            }
+          ] 
+        },
+        { "name": "Hacks", "show": false,
+          "rabbits": [
+            { "name": "Get directories: current & executing", 
+              "link": "http://stackoverflow.com/questions/5137497/find-current-directory-and-files-directory"
+            },
+            { "name": "Get directory: home", 
+              "link": "http://stackoverflow.com/questions/4028904/how-to-get-the-home-directory-in-python"
+            },
+            { "name": "Find files in a directory", 
+              "link": "http://stackoverflow.com/questions/3964681/find-all-files-in-directory-with-extension-txt-with-python"
+            },
+            { "name": "Check file size", 
+              "link": "http://stackoverflow.com/questions/2104080/how-to-check-file-size-in-python"
+            },
+            { "name": "Read & edit file (2nd ans.)", 
+              "link": "http://stackoverflow.com/questions/39086/search-and-replace-a-line-in-a-file-in-python"
+            },
+            { "name": "Pretty print object", 
+              "link": "http://www.saltycrane.com/blog/2010/08/twisted-web-post-example-json/"
+            },
+            { "name": "Deal with process", 
+              "link": "http://stackoverflow.com/questions/2940858/kill-process-by-name-in-python"
+            }
+          ] 
         }
-
       ]
     },
     {
