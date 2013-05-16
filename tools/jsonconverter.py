@@ -15,23 +15,56 @@ import json
 
 from docx import *
 
-if __name__ == '__main__':
+def grab_text_from_doc(path_to_doc):
+    """Uses docx module to get text from word doc."""
     try:
-        document = opendocx(sys.argv[1])
-        newfile = open(sys.argv[2],'w')
+        doc = opendocx(path_to_doc)
     except:
-        print('Please supply an input and output file. For example:')
-        print(''' example-extracttext.py 'My Office 2007 document.docx' 'outputfile.txt' ''')
+        print("Bad input file.")
         exit()
+    doc_text = getdocumenttext(doc)
+    #print doc_text
+    #text_list = []
+    #for text in doc_text:
+    #    text_list.append(text.encode("utf-8"))
+    #return text_list
+    return doc_text
 
-    ## Fetch all the text out of the document we just created
-    paratextlist = getdocumenttext(document)
+def process_text(doc_text):
+    """Convert list of document text to python dictionary of flashcards."""
+    flashcards = {}
+    flashcards['title'] = doc_text[0]
+    flashcards['cards'] = []
+    # create list of question and answers from text list
+    q_and_a_list = ':::'.join(doc_text[2:]).split(':::/:::')
+    # split list into tuples of questions and answers
+    tuple_seq = [(item.split(":::-:::")[0], 
+                  item.split(":::-:::")[1]) 
+                    for item in q_and_a_list]
+    # convert ::: to newline in questions and answers
+    tuple_seq = [("\n".join(item[0].split(":::")), 
+                  "\n".join(item[1].split(":::"))) 
+                    for item in tuple_seq]
+    # create a list of question/answer dictionaries
+    dict_seq = [{'question': item[0], 'answer': item[1]} 
+                    for item in tuple_seq]
+    flashcards['cards'] = dict_seq
+    return flashcards
 
-    # Make explicit unicode version
-    newparatextlist = []
-    for paratext in paratextlist:
-        newparatextlist.append(paratext.encode("utf-8"))
-    
-    ## Print our documnts test with two newlines under each paragraph
-    newfile.write('\n\n'.join(newparatextlist))
-    #print '\n\n'.join(newparatextlist)
+def _get_directories():
+    """Return directories for word docs and json."""
+    root_dir = os.path.realpath(__file__).partition('tools')[0]
+    doc_dir = root_dir + "questions/"
+    json_dir = root_dir + "app/data/flashcards/"
+    return (doc_dir, json_dir)
+
+
+if __name__ == '__main__':
+
+    doc_name = sys.argv[1]
+    doc_dir, json_dir = _get_directories()
+    path_to_doc = doc_dir + doc_name
+
+    doc_text = grab_text_from_doc(path_to_doc)
+    flashcard_dict = process_text(doc_text)
+    #print text_list
