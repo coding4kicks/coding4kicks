@@ -108,14 +108,95 @@
       "image": "images/back_end/python.png",
       "link": "http://www.youtube.com/watch?v=2eMkth8FWno",
       "show": false,
-      "worlds": []
+      "worlds": [
+        { "name": "General", "show": false,
+          "rabbits": [
+            { "name": "Essential Reference Ch. 1-5", 
+              "link": "http://www.amazon.com/gp/product/0672329786/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0672329786&linkCode=as2&tag=coding4kicks-20",
+              "flash": "data/flashcards/ch1-5-essential-ref.json",
+              "comment": "#/disqus/python/essential-ref"
+            },
+            { "name": "The Journey", 
+              "link": "http://stackoverflow.com/questions/2573135/python-progression-path-from-apprentice-to-guru"
+            },            
+            { "name": "Standards", 
+              "link": "http://www.python.org/dev/peps/pep-0008/"
+            },            
+            { "name": "docstrings", 
+              "link": "http://www.python.org/dev/peps/pep-0257/"
+            },            
+            { "name": "Google Style", 
+              "link": "http://google-styleguide.googlecode.com/svn/trunk/pyguide.html"
+            },
+            { "name": "with", 
+              "link": "http://effbot.org/zone/python-with-statement.htm"
+            },
+            { "name": "for in", 
+              "link": "http://effbot.org/zone/python-for-statement.htm"
+            },
+            { "name": "Tips and Tricks", 
+              "link": "http://maxburstein.com/blog/python-shortcuts-for-the-python-beginner/"
+            },
+            { "name": "Hidden Features", 
+              "link": "http://stackoverflow.com/questions/101268/hidden-features-of-python?rq=1"
+            },
+            { "name": "Scripting", 
+              "link": "http://magazine.redhat.com/2008/02/07/python-for-bash-scripters-a-well-kept-secret/"
+            }
+          ] 
+        },
+        { "name": "Func Style", "show": false,
+          "rabbits": [
+            { "name": "Essential Reference Ch. 6", 
+              "link": "http://www.amazon.com/gp/product/0672329786/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0672329786&linkCode=as2&tag=coding4kicks-20",
+              "comment": "#/disqus/python/essential-ref"
+            },
+            { "name": "yield", 
+              "link": "http://stackoverflow.com/questions/231767/the-python-yield-keyword-explained"
+            },
+            { "name": "decorators", 
+              "link": "http://stackoverflow.com/questions/739654/understanding-python-decorators#1594484"
+            },
+            { "name": "*args and **kwargs", 
+              "link": "http://www.saltycrane.com/blog/2008/01/how-to-use-args-and-kwargs-in-python/"
+            }
+
+          ] 
+        },
+        { "name": "OOP Style", "show": false,
+          "rabbits": [
+            { "name": "Essential Reference Ch. 7", 
+              "link": "http://www.amazon.com/gp/product/0672329786/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0672329786&linkCode=as2&tag=coding4kicks-20",
+              "comment": "#/disqus/python/essential-ref"
+            },
+            { "name": "metaclass", 
+              "link": "http://stackoverflow.com/questions/100003/what-is-a-metaclass-in-python/6581949#6581949"
+            }
+          ] 
+        }
+
+      ]
     },
     {
       "title": "Sys Admin",
       "image": "images/back_end/sysadmin.png",
       "link": "http://www.southparkstudios.com/full-episodes/s10e08-make-love-not-warcraft",
       "show": false,
-      "worlds": []
+      "worlds": [        
+        { "name": "General", "show": false,
+          "rabbits": [
+            { "name": "some crazy cool", 
+              "link": "http://www.nbcnews.com/"
+            },
+            { "name": "funky dunky stuff", 
+              "link": "http://www.foxnews.com/"
+            },  
+            { "name": "and 1 more time", 
+              "link": "http://www.cnn.com/"
+            } 
+          ] 
+        }
+      ]
     }
   ]
 }
