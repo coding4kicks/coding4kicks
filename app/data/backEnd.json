@@ -225,6 +225,17 @@
               "link": "http://stackoverflow.com/questions/2940858/kill-process-by-name-in-python"
             }
           ] 
+        },
+        { "name": "IPython", "show": false,
+          "rabbits": [
+            { "name": "IPython", 
+              "link": "http://ipython.org/",
+              "comment": "#/disqus/python/essential-ref"
+            },
+            { "name": "Video Intro", 
+              "link": "http://ipython.org/videos.html#videos"
+            }
+          ] 
         }
       ]
     },
@@ -236,15 +247,129 @@
       "worlds": [        
         { "name": "General", "show": false,
           "rabbits": [
-            { "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+          ] 
+        },
+        { "name": "Linux", "show": false,
+          "rabbits": [
+            { "name": "Pipe", 
+              "link": "http://en.wikipedia.org/wiki/Pipeline_%28Unix%29"
             },
-            { "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+            { "name": "Redirection", 
+              "link": "http://sc.tamu.edu/help/general/unix/redirection.html"
             },  
-            { "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
+            { "name": "Cut", 
+              "link": "en.wikipedia.org/wiki/Cut_(Unix)"
+            },
+            { "name": "Grep", 
+              "link": "http://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/"
+            },  
+            { "name": "Sed", 
+              "link": "http://www.grymoire.com/Unix/Sed.html"
+            },
+            { "name": "Sort", 
+              "link": "http://en.wikipedia.org/wiki/Sort_%28Unix%29"
+            },  
+            { "name": "Uniq", 
+              "link": "http://en.wikipedia.org/wiki/Uniq"
+            } ,
+            { "name": "Head", 
+              "link": "http://en.wikipedia.org/wiki/Head_%28Unix%29"
+            },  
+            { "name": "Or Tails", 
+              "link": "http://en.wikipedia.org/wiki/Tail_%28Unix%29"
+            },
+            { "name": "Curl", 
+              "link": "https://httpkit.com/resources/HTTP-from-the-Command-Line/"
+            },  
+            { "name": "Delete a file", 
+              "link": "http://www.cyberciti.biz/faq/howto-linux-unix-delete-remove-file/"
+            },
+            { "name": "Find a file", 
+              "link": "http://content.hccfl.edu/pollock/unix/findcmd.htm"
+            },  
+            { "name": "Quotes", 
+              "link": "http://www.grymoire.com/Unix/Quote.html"
+            }     
+          ] 
+        },
+        { "name": "AWS", "show": false,
+          "rabbits": [
+            { "name": "Boto", 
+              "link": "https://github.com/boto/boto"
+            },
+            { "name": "Obama's Architecture", 
+              "link": "http://awsofa.info/"
+            },  
+            { "name": "S3 Filesystem", 
+              "link": "http://stackoverflow.com/questions/1939743/amazon-s3-boto-how-to-create-folder"
+            },
+            { "name": "Spotty Instances", 
+              "link": "http://stackoverflow.com/questions/5188871/aws-amazon-ec2-spot-pricing"
+            },  
+            { "name": "Dealing with spotty instances", 
+              "link": "http://gigaom.com/2011/12/27/how-to-deal-with-amazons-spot-server-price-spikes/"
+            } ,
+            { "name": "Bidding", 
+              "link": "http://www.youtube.com/embed/WD9N73F3Fao"
+            },  
+            { "name": "Instance Reliability", 
+              "link": "http://alan.blog-city.com/has_amazon_ec2_become_over_subscribed.htm"
+            } ,
+            { "name": "Static Website", 
+              "link": "http://docs.amazonwebservices.com/AmazonS3/latest/dev/WebsiteHosting.html"
+            },  
+            { "name": "Website with Comments", 
+              "link": "http://www.allthingsdistributed.com/2011/02/weblog_in_amazon_s3.html"
             } 
+          ] 
+        },
+        { "name": "Vim", "show": false,
+          "rabbits": [
+            { "name": "Just use sublime", 
+              "link": "http://delvarworld.github.com/blog/2013/03/16/just-use-sublime-text/"
+            },
+            { "name": "SO description", 
+              "link": "http://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118"
+            },  
+            { "name": "Cheatsheat", 
+              "link": "http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html"
+            },
+            { "name": "Sell Out", 
+              "link": "http://code.google.com/p/macvim/"
+            },  
+            { "name": "Tabs", 
+              "link": "http://www.vex.net/~x/python_and_vim.html"
+            },
+            { "name": "Fix tabs", 
+              "link": "http://vim.wikia.com/wiki/Converting_tabs_to_spaces"
+            },  
+            { "name": "Wrapping", 
+              "link": "http://stackoverflow.com/questions/5602905/auto-wrap-long-lines-in-vim"
+            },
+            { "name": "Line Numbers", 
+              "link": "http://www.cyberciti.biz/faq/vi-show-line-numbers/"
+            },  
+            { "name": "Block Comments", 
+              "link": "http://notfaq.wordpress.com/2006/07/28/vim-comment-blocks-of-code/"
+            },  
+            { "name": "Files - Nerd Tree", 
+              "link": "http://www.vim.org/scripts/script.php?script_id=1658"
+            },
+            { "name": "Git diff in gutter", 
+              "link": "https://github.com/airblade/vim-gitgutter"
+            },  
+            { "name": "Rocky Training", 
+              "link": "http://vimcasts.org/blog/2013/02/habit-breaking-habit-making/"
+            },
+            { "name": "Package Manage", 
+              "link": "https://github.com/gmarik/vundle"
+            },  
+            { "name": "Python", 
+              "link": "http://blog.dispatched.ch/2009/05/24/vim-as-python-ide/"
+            },  
+            { "name": "Javascript", 
+              "link": "https://github.com/pangloss/vim-javascript"
+            }      
           ] 
         }
       ]
