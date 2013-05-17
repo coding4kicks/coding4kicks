@@ -9,43 +9,90 @@
       "link": "http://en.wikipedia.org/wiki/Sydney_funnel-web_spider",
       "show": false,
       "worlds": [
-        {
-          "name": "my top level", 
-          "show": false,
+        { "name": "General", "show": false,
           "rabbits": [
-            {
-              "name": "some crazy cool", 
+            { "name": "some crazy cool", 
               "link": "http://www.nbcnews.com/",
               "flash": "data/flashcards/test.json",
               "comment": "#/disqus/web/test1"
             },
-            {
-              "name": "funky dunky stuff", 
+            { "name": "funky dunky stuff", 
               "link": "http://www.foxnews.com/",
               "comment": "#/disqus/web/test2"
             },  
-            {
-              "name": "and 1 more time", 
+            { "name": "and 1 more time", 
               "link": "http://www.cnn.com/",
               "flash": "http://www.coding4kicks.com/",
               "comment": "#/disqus"
             } 
           ] 
         },
-        {
-          "name": "on the level",
+        { "name": "Protocols",
           "show": false,
           "rabbits": [
-            {
-              "name": "some other trash", 
+            { "name": "some other trash", 
               "link": "http://www.facebook.com/"
             },
-            {
-              "name": "and more", 
+            { "name": "and more", 
               "link": "http://www.google.com/"
             },  
-            {
-              "name": "better than less", 
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "REST",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Serving",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "PyNet",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Security",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
               "link": "http://www.hackernews.com/"
             } 
           ] 
@@ -58,38 +105,69 @@
       "link": "http://www.zoliblog.com/2012/05/22/do-you-know-the-difference-between-a-house-of-cards-and-a-house-of-lego-blocks/",
       "show": false,
       "worlds": [
-        {
-          "name": "my top level", 
+        { "name": "General", 
           "show": false,
           "rabbits": [
-            {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
-            },
-            {
-              "name": "funky dunky stuff", 
+            { "name": "funky dunky stuff", 
               "link": "http://www.foxnews.com/"
             },  
-            {
-              "name": "and 1 more time", 
+            { "name": "and 1 more time", 
               "link": "http://www.cnn.com/"
             } 
           ] 
         },
-        {
-          "name": "on the level",
+        { "name": "Twisted",
           "show": false,
           "rabbits": [
-            {
-              "name": "some other trash", 
+            { "name": "some other trash", 
               "link": "http://www.facebook.com/"
             },
-            {
-              "name": "and more", 
+            { "name": "and more", 
               "link": "http://www.google.com/"
             },  
-            {
-              "name": "better than less", 
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Starcluster",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Hapoop",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Firebase",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
               "link": "http://www.hackernews.com/"
             } 
           ] 
@@ -101,7 +179,90 @@
       "image": "images/back_end/datastores.png",
       "link": "http://www.wwu.edu/skywise/a101_blackholes.html",
       "show": false,
-      "worlds": []
+      "worlds": [
+        { "name": "General", 
+          "show": false,
+          "rabbits": [
+            { "name": "Fundamentals of DB Systems", 
+              "link": "http://www.amazon.com/Fundamentals-Database-Systems-6th-Edition/product-reviews/0136086209/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&showViewpoints=1&tag=coding4kicks-20"
+            },
+            { "name": "funky dunky stuff", 
+              "link": "http://www.foxnews.com/"
+            },  
+            { "name": "and 1 more time", 
+              "link": "http://www.cnn.com/"
+            } 
+          ] 
+        },
+        { "name": "SQL",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "NoSQL",
+          "show": false,
+          "rabbits": [
+            { "name": "NoSQL Distilled", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0321826620"
+            },
+            { "name": "Key points", 
+              "link": "http://martinfowler.com/articles/nosqlKeyPoints.html"
+            }, 
+            { "name": "options", 
+              "link": "http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis"
+            }, 
+            { "name": "riak versus mongo", 
+              "link": "http://docs.basho.com/riak/latest/references/appendices/comparisons/Riak-Compared-to-MongoDB/"
+            }, 
+            { "name": "redis versus riak", 
+              "link": "http://nosql.findthebest.com/compare/6-9/Riak-vs-Redis"
+            }, 
+            { "name": "riak review", 
+              "link": "http://inaka.net/blog/2011/08/25/when-to-use-riak/"
+            }, 
+            { "name": "redis versus memcached", 
+              "link": "http://stackoverflow.com/questions/10558465/memcache-vs-redis"
+            }
+          ] 
+        },
+        { "name": "Redis",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Postgre",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        }
+      ]
     },
     {
       "title": "Python",
