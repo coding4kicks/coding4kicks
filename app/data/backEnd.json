@@ -11,20 +11,18 @@
       "worlds": [
         { "name": "General", "show": false,
           "rabbits": [
-            { "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/",
-              "flash": "data/flashcards/test.json",
-              "comment": "#/disqus/web/test1"
+            { "name": "DNS", 
+              "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
             },
-            { "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/",
-              "comment": "#/disqus/web/test2"
+            { "name": "Run your own DNS", 
+              "link": "http://bugsplat.info/2012-12-31-how-i-run-my-own-dns.html"
             },  
-            { "name": "and 1 more time", 
-              "link": "http://www.cnn.com/",
-              "flash": "http://www.coding4kicks.com/",
-              "comment": "#/disqus"
-            } 
+            { "name": "Routing", 
+              "link": "http://blog.cloudflare.com/why-google-went-offline-today-and-a-bit-about"
+            },  
+            { "name": "Authentication", 
+              "link": "http://unixpapa.com/auth/basic.html"
+            }  
           ] 
         },
         { "name": "Protocols",
@@ -125,6 +123,9 @@
             { "name": "The Book", 
               "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0596100329"
             },
+            { "name": "Ed Hardy", 
+              "link": "http://www.quora.com/Is-programming-with-Twisted-really-as-awful-as-it-sounds"
+            }, 
             { "name": "Web Use Cases", 
               "link": "http://twistedmatrix.com/trac/wiki/WebDevelopmentWithTwisted"
             },  
@@ -136,8 +137,13 @@
             },  
             { "name": "Short Intro", 
               "link": "http://mumak.net/stuff/twisted-intro.html"
+            },  
+            { "name": "Basic Auth", 
+              "link": "http://twistedsphinx.funsize.net/projects/web/howto/web-in-60/http-auth.html"
+            },  
+            { "name": "Web Services", 
+              "link": "http://zenmachine.wordpress.com/web-services-and-twisted/"
             } 
- 
           ] 
         },
         { "name": "Starcluster",
@@ -509,7 +515,16 @@
             },  
             { "name": "Website with Comments", 
               "link": "http://www.allthingsdistributed.com/2011/02/weblog_in_amazon_s3.html"
-            } 
+            },  
+            { "name": "CDN",
+              "link": "http://docs.amazonwebservices.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html"
+            },  
+            { "name": "No CNAME SSL for CDN?",
+              "link": "https://forums.aws.amazon.com/thread.jspa?threadID=87319"
+            },  
+            { "name": "Route 53",
+              "link": "http://davewasmer.tumblr.com/post/31283249223/migrating-from-godaddy-dns-to-amazon-route-53"
+            }     
           ] 
         },
         { "name": "Vim", "show": false,
