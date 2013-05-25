@@ -21,14 +21,14 @@ module.exports = function (grunt) {
   grunt.initConfig({
     yeoman: yeomanConfig,
     watch: {
-      coffee: {
-        files: ['<%= yeoman.app %>/scripts/{,*/}*.coffee'],
-        tasks: ['coffee:dist']
-      },
-      coffeeTest: {
-        files: ['test/spec/{,*/}*.coffee'],
-        tasks: ['coffee:test']
-      },
+//      coffee: {
+//        files: ['<%= yeoman.app %>/scripts/{,*/}*.coffee'],
+//        tasks: ['coffee:dist']
+//      },
+//      coffeeTest: {
+//        files: ['test/spec/{,*/}*.coffee'],
+//        tasks: ['coffee:test']
+//      },
       compass: {
         files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
         tasks: ['compass']
@@ -38,6 +38,7 @@ module.exports = function (grunt) {
           '<%= yeoman.app %>/{,*/}*.html',
           '{.tmp,<%= yeoman.app %>}/styles/{,*/}*.css',
           '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js',
+          '{.tmp,<%= yeoman.app %>}/data/{,*/}*.json',
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ],
         tasks: ['livereload']
@@ -104,26 +105,26 @@ module.exports = function (grunt) {
         singleRun: false
       }
     },
-    coffee: {
-      dist: {
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.app %>/scripts',
-          src: '{,*/}*.coffee',
-          dest: '.tmp/scripts',
-          ext: '.js'
-        }]
-      },
-      test: {
-        files: [{
-          expand: true,
-          cwd: 'test/spec',
-          src: '{,*/}*.coffee',
-          dest: '.tmp/spec',
-          ext: '.js'
-        }]
-      }
-    },
+//    coffee: {
+//      dist: {
+//        files: [{
+//          expand: true,
+//          cwd: '<%= yeoman.app %>/scripts',
+//          src: '{,*/}*.coffee',
+//          dest: '.tmp/scripts',
+//          ext: '.js'
+//        }]
+//      },
+//      test: {
+//        files: [{
+//          expand: true,
+//          cwd: 'test/spec',
+//          src: '{,*/}*.coffee',
+//          dest: '.tmp/spec',
+//          ext: '.js'
+//        }]
+//      }
+//    },
     compass: {
       options: {
         sassDir: '<%= yeoman.app %>/styles',
@@ -264,7 +265,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('server', [
     'clean:server',
-    'coffee:dist',
+//    'coffee:dist',
     'compass:server',
     'livereload-start',
     'connect:livereload',
@@ -274,7 +275,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('test', [
     'clean:server',
-    'coffee',
+//    'coffee',
     'compass',
     'connect:test',
     'karma'
@@ -284,7 +285,7 @@ module.exports = function (grunt) {
     'clean:dist',
     'jshint',
     'test',
-    'coffee',
+//    'coffee',
     'compass:dist',
     'useminPrepare',
     'imagemin',
