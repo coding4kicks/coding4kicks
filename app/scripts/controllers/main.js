@@ -1,6 +1,6 @@
 'use strict';
 
-coding4kicksApp.controller('MainCtrl', function($scope, $window) {
+coding4kicksApp.controller('MainCtrl', ['$scope', '$window', function($scope, $window) {
   $scope.awesomeThings = [
     'HTML5 Boilerplate',
     'AngularJS',
@@ -79,4 +79,4 @@ coding4kicksApp.controller('MainCtrl', function($scope, $window) {
                   'http://www.listenonrepeat.com/watch/?v=0_prJ22rXRs&list=AL94UKMTqg-9CsKjApTRGmupkJipCDOSnD', // DCO
                   'http://www.youtube.com/watch?v=qau8Wiv7Aas' // Dos Gringos
                   ];
-});
+}]);

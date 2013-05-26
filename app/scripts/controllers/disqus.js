@@ -5,7 +5,7 @@
 /* jshint -W116 */
 
 angular.module('coding4kicksApp')
-  .controller('DisqusCtrl', function ($scope, $location, $routeParams) {
+  .controller('DisqusCtrl', ['$scope', '$location', '$routeParams', function ($scope, $location, $routeParams) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -38,4 +38,4 @@ angular.module('coding4kicksApp')
     }
 
     loadDisqus($routeParams.wonderland, $routeParams.title);
-  });
+  }]);
