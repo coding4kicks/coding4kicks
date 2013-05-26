@@ -9,38 +9,116 @@
       "link": "http://www.free80sarcade.com/digdug.php",
       "show": false,
       "worlds": [
-        {
-          "name": "my top level", 
+        { "name": "General", "show": false,
+          "rabbits": [
+            { "name": "DNS", 
+              "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
+            },
+            { "name": "Run your own DNS", 
+              "link": "http://bugsplat.info/2012-12-31-how-i-run-my-own-dns.html"
+            },  
+            { "name": "Routing", 
+              "link": "http://blog.cloudflare.com/why-google-went-offline-today-and-a-bit-about"
+            },  
+            { "name": "Authentication", 
+              "link": "http://unixpapa.com/auth/basic.html"
+            }  
+          ] 
+        },
+        { "name": "Models",
           "show": false,
           "rabbits": [
-            {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
             },
-            {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+            { "name": "and more", 
+              "link": "http://www.google.com/"
             },  
-            {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
             } 
           ] 
         },
-        {
-          "name": "on the level",
+        { "name": "Visualization",
           "show": false,
           "rabbits": [
-            {
-              "name": "some other trash", 
+            { "name": "some other trash", 
               "link": "http://www.facebook.com/"
             },
-            {
-              "name": "and more", 
+            { "name": "and more", 
               "link": "http://www.google.com/"
             },  
-            {
-              "name": "better than less", 
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "APIs",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Pandas",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "SciNumPy",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "MatPlotLib",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "R",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
               "link": "http://www.hackernews.com/"
             } 
           ] 
@@ -53,38 +131,102 @@
       "link": "http://www.youtube.com/watch?v=HwBmPiOmEGQ",
       "show": false,
       "worlds": [
-        {
-          "name": "my top level", 
+        { "name": "General", "show": false,
+          "rabbits": [
+            { "name": "DNS", 
+              "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
+            },
+            { "name": "Run your own DNS", 
+              "link": "http://bugsplat.info/2012-12-31-how-i-run-my-own-dns.html"
+            },  
+            { "name": "Routing", 
+              "link": "http://blog.cloudflare.com/why-google-went-offline-today-and-a-bit-about"
+            },  
+            { "name": "Authentication", 
+              "link": "http://unixpapa.com/auth/basic.html"
+            }  
+          ] 
+        },
+        { "name": "Neural Networks",
           "show": false,
           "rabbits": [
-            {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
             },
-            {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+            { "name": "and more", 
+              "link": "http://www.google.com/"
             },  
-            {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
             } 
           ] 
         },
-        {
-          "name": "on the level",
+        { "name": "Bayesian",
           "show": false,
           "rabbits": [
-            {
-              "name": "some other trash", 
+            { "name": "some other trash", 
               "link": "http://www.facebook.com/"
             },
-            {
-              "name": "and more", 
+            { "name": "and more", 
               "link": "http://www.google.com/"
             },  
-            {
-              "name": "better than less", 
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Unsupervised",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Parallel",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "SciKit Learn",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Octave & Matlab",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
               "link": "http://www.hackernews.com/"
             } 
           ] 
@@ -96,28 +238,292 @@
       "image": "images/machine_intel/computervision.png",
       "link": "http://web.media.mit.edu/~minsky/papers/Internal%20Grounding.html",
       "show": false,
-      "worlds": []
+      "worlds": [
+        { "name": "General", "show": false,
+          "rabbits": [
+            { "name": "DNS", 
+              "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
+            },
+            { "name": "Run your own DNS", 
+              "link": "http://bugsplat.info/2012-12-31-how-i-run-my-own-dns.html"
+            },  
+            { "name": "Routing", 
+              "link": "http://blog.cloudflare.com/why-google-went-offline-today-and-a-bit-about"
+            },  
+            { "name": "Authentication", 
+              "link": "http://unixpapa.com/auth/basic.html"
+            }  
+          ] 
+        },
+        { "name": "Papers",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "OpenCV",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        }
+      ]
     },
     {
       "title": "Data Robery - IR",
       "image": "images/machine_intel/informationretrievel.png",
       "link": "https://www.google.com/",
       "show": false,
-      "worlds": []
+      "worlds": [
+        { "name": "General", "show": false,
+          "rabbits": [
+            { "name": "DNS", 
+              "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
+            },
+            { "name": "Run your own DNS", 
+              "link": "http://bugsplat.info/2012-12-31-how-i-run-my-own-dns.html"
+            },  
+            { "name": "Routing", 
+              "link": "http://blog.cloudflare.com/why-google-went-offline-today-and-a-bit-about"
+            },  
+            { "name": "Authentication", 
+              "link": "http://unixpapa.com/auth/basic.html"
+            }  
+          ] 
+        },
+        { "name": "Natural Lang",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "NLTK",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "WordNet",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Parsing",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Spiders",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        }
+      ]
     },
     {
       "title": "Follow the Herd - Networks",
       "image": "images/machine_intel/networks.png",
       "link": "https://www.facebook.com/",
       "show": false,
-      "worlds": []
+      "worlds": [
+        { "name": "General", "show": false,
+          "rabbits": [
+            { "name": "DNS", 
+              "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
+            },
+            { "name": "Run your own DNS", 
+              "link": "http://bugsplat.info/2012-12-31-how-i-run-my-own-dns.html"
+            },  
+            { "name": "Routing", 
+              "link": "http://blog.cloudflare.com/why-google-went-offline-today-and-a-bit-about"
+            },  
+            { "name": "Authentication", 
+              "link": "http://unixpapa.com/auth/basic.html"
+            }  
+          ] 
+        },
+        { "name": "Graphs",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        }
+      ]
     },
     {
       "title": "WTF",
       "image": "images/machine_intel/mathematics.png",
       "link": "http://www.gogeometry.com/Eulerformula.htm",
       "show": false,
-      "worlds": []
+      "worlds": [
+        { "name": "General", "show": false,
+          "rabbits": [
+            { "name": "DNS", 
+              "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
+            },
+            { "name": "Run your own DNS", 
+              "link": "http://bugsplat.info/2012-12-31-how-i-run-my-own-dns.html"
+            },  
+            { "name": "Routing", 
+              "link": "http://blog.cloudflare.com/why-google-went-offline-today-and-a-bit-about"
+            },  
+            { "name": "Authentication", 
+              "link": "http://unixpapa.com/auth/basic.html"
+            }  
+          ] 
+        },
+        { "name": "Logic & Sets",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Algebras",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Probabilities",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Analysis",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Algorithms",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        },
+        { "name": "Statistics",
+          "show": false,
+          "rabbits": [
+            { "name": "some other trash", 
+              "link": "http://www.facebook.com/"
+            },
+            { "name": "and more", 
+              "link": "http://www.google.com/"
+            },  
+            { "name": "better than less", 
+              "link": "http://www.hackernews.com/"
+            } 
+          ] 
+        }
+      ]
     }
   ]
 }
