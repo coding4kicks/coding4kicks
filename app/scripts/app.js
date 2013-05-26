@@ -1,5 +1,8 @@
 'use strict';
 
+// lint options: disable never used error for coding4kicksApp 
+/* jshint -W098 */
+
 var coding4kicksApp = angular.module('coding4kicksApp', [])
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
@@ -38,6 +41,9 @@ var coding4kicksApp = angular.module('coding4kicksApp', [])
       // TODO: Add 404 redirect Wounded Warriors
   }])
 
+//re-enable
+///* jshint +W98 */
+
 .directive('flashcards', ['$http', function($http) {
 
   var card = '<div class="card">' +
@@ -75,9 +81,123 @@ var coding4kicksApp = angular.module('coding4kicksApp', [])
           iconFile,
           data;
 
-      //attrs.data ? dataFile = attrs.data : dataFile = 'data/data.json';
-      attrs.src ? iconFile = attrs.src : iconFile = 'img/card-icon.png';
+      // Toggle the flashcards' visibility
+      function toggleCards() {
+        if (typeof data === 'undefined') {
+          loadData();
+        }
+        flashcards.removeClass(showing ? 'cards-show' : 'cards-hide');
+        flashcards.addClass(showing ? 'cards-hide' : 'cards-show');
+        showing = !showing;
+      }
 
+      // Toggle between questions and answers, uses 'class hack' to id btn/card
+      function toggleAnswer() {
+
+        // allow this in function
+        /* jshint -W040 */
+        var classes = angular.element(this).attr('class');
+
+        if (classes.search('btn0') > 0) {
+          swapContent(cards[0]);
+        }
+        else if (classes.search('btn1') > 0) {
+          swapContent(cards[1]);
+        }
+        else {
+          swapContent(cards[2]);
+        }
+      }
+
+      function swapContent(card) {
+        card.content.text(card.answerShowing ? card.data.question : card.data.answer);
+        card.answerBtn.text(card.answerShowing ? 'Answer' : 'Question');
+        card.answerShowing = !card.answerShowing;
+      }
+
+      // Move to the next question
+      function nextQuestion() {
+
+        // disable next card's next button to prevent fast click through bug
+        nextCard.nextBtn.attr('disabled', true);
+
+        nextCard.removeClass('card-hide');
+        currentCard.addClass('card-previous');
+        nextCard.removeClass('card-next');
+        previousCard.addClass('card-next');
+        previousCard.removeClass('card-previous');
+
+        // After transition is complete, swap cards, make visible, adjust data.
+        setTimeout(function() {
+          if (currentCard.answerShowing === true) {swapContent(currentCard);}
+          tempCard = nextCard;
+          nextCard = previousCard;
+          previousCard = currentCard;
+          currentCard = tempCard;
+          previousCard.addClass('card-hide');
+          nextCard.cardNum.text(cardCounter);
+          nextCard.data = data.cards[cardCounter-1];
+          nextCard.content.text(nextCard.data.question);
+          if (typeof nextCard.data.answer === 'undefined') {
+            nextCard.answerBtn.addClass('button-hide');
+          }
+          else {
+            nextCard.answerBtn.removeClass('button-hide');
+          }
+          if (cardCounter++ >= numberOfCards) {cardCounter = 1;}
+
+          // Re-enable the next button
+          currentCard.nextBtn.attr('disabled', false);
+
+        }, 1000);
+      }
+
+      // Move to the previous question
+      function prevQuestion() {
+
+        // disable prev card's prev button to prevent fast click through bug
+        previousCard.previousBtn.attr('disabled', true);
+
+        previousCard.removeClass('card-hide');
+        currentCard.addClass('card-next');
+        previousCard.removeClass('card-previous');
+        nextCard.addClass('card-previous');
+        nextCard.removeClass('card-next');
+
+        // After transition is complete, swap cards, make visible, adjust data.
+        setTimeout(function() {
+          if (currentCard.answerShowing === true) {swapContent(currentCard);}
+          tempCard = previousCard;
+          previousCard = nextCard;
+          nextCard = currentCard;
+          currentCard = tempCard;
+          nextCard.addClass('card-hide');
+          if (cardCounter - 4 <= 0){
+            prevCounter = numberOfCards - (4 - cardCounter);
+          }
+          else {
+            prevCounter = cardCounter-4;
+          }
+          previousCard.cardNum.text(prevCounter);
+          previousCard.data = data.cards[prevCounter-1];
+          previousCard.content.text(previousCard.data.question);
+          if (typeof previousCard.data.answer === 'undefined') {
+            previousCard.answerBtn.addClass('button-hide');
+          }
+          else {
+            previousCard.answerBtn.removeClass('button-hide');
+          }
+          if (cardCounter-- <= 1) {cardCounter = numberOfCards;}
+
+          // Re-enable the next button
+          currentCard.previousBtn.attr('disabled', false);
+
+        }, 1000);
+      }
+
+      //attrs.data ? dataFile = attrs.data : dataFile = 'data/data.json';
+      //attrs.src ? iconFile = attrs.src : iconFile = 'img/card-icon.png';
+      iconFile = attrs.src;
       icon.attr('src', iconFile);
       iconLink.bind('click', toggleCards);
 
@@ -116,7 +236,7 @@ var coding4kicksApp = angular.module('coding4kicksApp', [])
         .then(function(results){
           data = results.data;
           if (typeof data.cards === 'undefined') {
-              console.log('Error, bad url, no data recieved.');
+            console.log('Error, bad url, no data recieved.');
           }
           else {
             initData();
@@ -148,116 +268,6 @@ var coding4kicksApp = angular.module('coding4kicksApp', [])
           }
         }
       }
-
-      // Toggle the flashcards' visibility
-      function toggleCards() {
-        if (typeof data === 'undefined') {
-          loadData();
-        }
-        flashcards.removeClass(showing ? 'cards-show' : 'cards-hide');
-        flashcards.addClass(showing ? 'cards-hide' : 'cards-show');
-        showing = !showing;
-      }
-
-      // Toggle between questions and answers, uses 'class hack' to id btn/card
-      function toggleAnswer() {
-        var classes = angular.element(this).attr('class');
-        if (classes.search('btn0') > 0) {
-          swapContent(cards[0]);
-        }
-        else if (classes.search('btn1') > 0) {
-          swapContent(cards[1]);
-        }
-        else {
-          swapContent(cards[2]);
-        }
-      }
-
-      function swapContent(card) {
-        card.content.text(card.answerShowing ? card.data.question : card.data.answer);
-        card.answerBtn.text(card.answerShowing ? 'Answer' : 'Question');
-        card.answerShowing = !card.answerShowing;
-      }
-
-      // Move to the next question
-      function nextQuestion() {
-
-        // disable next card's next button to prevent fast click through bug
-        nextCard['nextBtn'].attr('disabled', true);
-
-        nextCard.removeClass("card-hide");
-        currentCard.addClass("card-previous");
-        nextCard.removeClass("card-next");
-        previousCard.addClass("card-next");
-        previousCard.removeClass("card-previous");
-
-        // After transition is complete, swap cards, make visible, adjust data.
-        setTimeout(function() {
-          if (currentCard['answerShowing'] == true) {swapContent(currentCard);}
-          tempCard = nextCard;
-          nextCard = previousCard;
-          previousCard = currentCard;
-          currentCard = tempCard;
-          previousCard.addClass("card-hide");
-          nextCard.cardNum.text(cardCounter);
-          nextCard.data = data.cards[cardCounter-1];
-          nextCard.content.text(nextCard.data.question);
-          if (typeof nextCard.data.answer === "undefined") {
-            nextCard.answerBtn.addClass("button-hide");
-          }
-          else {
-            nextCard.answerBtn.removeClass("button-hide");
-          }
-          if (cardCounter++ >= numberOfCards) {cardCounter = 1;}
-
-          // Re-enable the next button
-          currentCard['nextBtn'].attr('disabled', false);
-
-        }, 1000);
-      }
-
-      // Move to the previous question
-      function prevQuestion() {
-
-        // disable prev card's prev button to prevent fast click through bug
-        previousCard['previousBtn'].attr('disabled', true);
-
-        previousCard.removeClass("card-hide");
-        currentCard.addClass("card-next");
-        previousCard.removeClass("card-previous");
-        nextCard.addClass("card-previous");
-        nextCard.removeClass("card-next");
-
-        // After transition is complete, swap cards, make visible, adjust data.
-        setTimeout(function() {
-          if (currentCard['answerShowing'] == true) {swapContent(currentCard);}          
-          tempCard = previousCard;
-          previousCard = nextCard;
-          nextCard = currentCard;
-          currentCard = tempCard;
-          nextCard.addClass("card-hide");
-          if (cardCounter - 4 <= 0){
-            prevCounter = numberOfCards - (4 - cardCounter);
-          }
-          else {
-            prevCounter = cardCounter-4;
-          }
-          previousCard.cardNum.text(prevCounter);
-          previousCard.data = data.cards[prevCounter-1];
-          previousCard.content.text(previousCard.data.question);
-          if (typeof previousCard.data.answer === "undefined") {
-            previousCard.answerBtn.addClass("button-hide");
-          }
-          else {
-            previousCard.answerBtn.removeClass("button-hide");
-          }
-          if (cardCounter-- <= 1) {cardCounter = numberOfCards;}
-
-          // Re-enable the next button
-          currentCard['previousBtn'].attr('disabled', false);
-
-        }, 1000);
-      }
     }
-  }
+  };
 }]);

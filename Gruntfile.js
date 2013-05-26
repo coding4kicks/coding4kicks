@@ -92,7 +92,11 @@ module.exports = function (grunt) {
     },
     jshint: {
       options: {
-        jshintrc: '.jshintrc'
+        jshintrc: '.jshintrc',
+        globals: {
+          coding4kicksApp: true,
+          angular: true
+        }
       },
       all: [
         'Gruntfile.js',

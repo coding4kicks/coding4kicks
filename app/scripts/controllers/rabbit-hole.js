@@ -1,5 +1,8 @@
 'use strict';
 
+// lint options: allow function call in loops
+/*jshint loopfunc: true */
+
 coding4kicksApp.controller('RabbitHoleCtrl', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
   $scope.awesomeThings = [
     'HTML5 Boilerplate',
@@ -10,19 +13,19 @@ coding4kicksApp.controller('RabbitHoleCtrl', ['$scope', '$routeParams', '$http',
   // Set appropriate rabbithole type based upon url parameter
   // If no match redirect to 404
   switch($routeParams.rabbitHoleId){
-  case "machine-intel":
+  case 'machine-intel':
     $scope.holeType = 'machineIntel';
     break;
-  case "soft-dev":
+  case 'soft-dev':
     $scope.holeType = 'softDev';
     break;
-  case "entremanureship":
+  case 'entremanureship':
     $scope.holeType = 'entremanureship';
     break;
-  case "front-end":
+  case 'front-end':
     $scope.holeType = 'frontEnd';
     break;
-  case "back-end":
+  case 'back-end':
     $scope.holeType = 'backEnd';
     break;
   default:
