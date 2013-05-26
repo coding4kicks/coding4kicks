@@ -8,32 +8,32 @@ coding4kicksApp.controller('MainCtrl', function($scope, $window) {
   ];
 
   // Src is for pictures, Img is for words
-  $scope.caveatEmptorSrc = "images/index/caveat-emptor.jpg";
-  $scope.caveatEmptorImg = "images/index/please-buy.png";
+  $scope.caveatEmptorSrc = 'images/index/caveat-emptor.jpg';
+  $scope.caveatEmptorImg = 'images/index/please-buy.png';
 
-  $scope.machineIntelSrc = "images/index/machine-intel.png";
-  $scope.machineIntelImg = "images/index/machine-words.png";
+  $scope.machineIntelSrc = 'images/index/machine-intel.png';
+  $scope.machineIntelImg = 'images/index/machine-words.png';
 
-  $scope.softDevSrc = "images/index/soft-dev.png";
-  $scope.softDevImg = "images/index/soft-words.png";
+  $scope.softDevSrc = 'images/index/soft-dev.png';
+  $scope.softDevImg = 'images/index/soft-words.png';
 
-  $scope.manureShipSrc = "images/index/entremanureship.png";
-  $scope.manureShipImg = "images/index/manure-words.png";
+  $scope.manureShipSrc = 'images/index/entremanureship.png';
+  $scope.manureShipImg = 'images/index/manure-words.png';
 
-  $scope.frontEndSrc = "images/index/front-end.png";
-  $scope.frontEndImg = "images/index/front-words.png";
+  $scope.frontEndSrc = 'images/index/front-end.png';
+  $scope.frontEndImg = 'images/index/front-words.png';
 
-  $scope.backEndSrc = "images/index/back-end.png";
-  $scope.backEndImg = "images/index/back-words.png";
+  $scope.backEndSrc = 'images/index/back-end.png';
+  $scope.backEndImg = 'images/index/back-words.png';
 
-  $scope.badAdviceSrc = "images/index/bad-advice.png";
-  $scope.badAdviceImg = "images/index/bad-words.png";
+  $scope.badAdviceSrc = 'images/index/bad-advice.png';
+  $scope.badAdviceImg = 'images/index/bad-words.png';
 
-  $scope.whoAmISrc = "images/index/whoami.png";
+  $scope.whoAmISrc = 'images/index/whoami.png';
 
-  $scope.iDigressSrc = "images/index/i-digress.png";
+  $scope.iDigressSrc = 'images/index/i-digress.png';
 
-  var url = "";
+  var url = '';
   $scope.randomSong = function() {
 
     url = songList[Math.floor(Math.random()*songList.length)];

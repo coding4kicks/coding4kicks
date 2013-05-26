@@ -48,7 +48,7 @@ var coding4kicksApp = angular.module('coding4kicksApp', [])
                '<p class="card-content"></p>' +
                '<button class="prev-button" type="button">Previous</button>' +
                '<button class="next-button" type="button">Next</button>' +
-               '<button class="answer-button" type="button">Answer</button>' + 
+               '<button class="answer-button" type="button">Answer</button>' +
              '</div>';
 
   return {
@@ -74,29 +74,29 @@ var coding4kicksApp = angular.module('coding4kicksApp', [])
           dataFile,
           iconFile,
           data;
-          
+
       //attrs.data ? dataFile = attrs.data : dataFile = 'data/data.json';
       attrs.src ? iconFile = attrs.src : iconFile = 'img/card-icon.png';
 
       icon.attr('src', iconFile);
-      iconLink.bind('click', toggle_cards);
+      iconLink.bind('click', toggleCards);
 
       // Initialize cards array with objects on each card.
       for(var i = 0; i < 3; i++) {
         cards[i] = angular.element(flashcards.children()[i]);
-        cards[i]['cardNum'] = angular.element(cards[i].children()[0]);
-        cards[i]['closebtn'] = angular.element(cards[i].children()[3]);
-        cards[i]['content'] = angular.element(cards[i].children()[5]);
-        cards[i]['previousBtn'] = angular.element(cards[i].children()[6]);
-        cards[i]['nextBtn'] = angular.element(cards[i].children()[7]);
-        cards[i]['answerBtn'] = angular.element(cards[i].children()[8]);
+        cards[i].cardNum = angular.element(cards[i].children()[0]);
+        cards[i].closebtn = angular.element(cards[i].children()[3]);
+        cards[i].content = angular.element(cards[i].children()[5]);
+        cards[i].previousBtn = angular.element(cards[i].children()[6]);
+        cards[i].nextBtn = angular.element(cards[i].children()[7]);
+        cards[i].answerBtn = angular.element(cards[i].children()[8]);
         cards[i].answerBtn.addClass('btn' + i); // 'class hack': pass button id via class
-        cards[i]['data'] = '';    
-        cards[i]['answerShowing'] = false;
-        cards[i].closebtn.bind('click', toggle_cards);
-        cards[i].nextBtn.bind('click', next_question);
+        cards[i].data = '';
+        cards[i].answerShowing = false;
+        cards[i].closebtn.bind('click', toggleCards);
+        cards[i].nextBtn.bind('click', nextQuestion);
         cards[i].answerBtn.bind('click', toggleAnswer);
-        cards[i].previousBtn.bind('click', prev_question);
+        cards[i].previousBtn.bind('click', prevQuestion);
       }
 
       // Assign cards to states
@@ -105,27 +105,27 @@ var coding4kicksApp = angular.module('coding4kicksApp', [])
       previousCard = cards[2];
 
       // Initialize starting classes
-      nextCard.addClass("card-next");
-      nextCard.addClass("card-hide");
-      previousCard.addClass("card-previous");
-      previousCard.addClass("card-hide");
+      nextCard.addClass('card-next');
+      nextCard.addClass('card-hide');
+      previousCard.addClass('card-previous');
+      previousCard.addClass('card-hide');
 
       function loadData() {
         dataFile = attrs.data;
         $http.get(dataFile)
         .then(function(results){
           data = results.data;
-          if (typeof data.cards === "undefined") {
-              console.log("Error, bad url, no data recieved.");
-            }
+          if (typeof data.cards === 'undefined') {
+              console.log('Error, bad url, no data recieved.');
+          }
           else {
-            init_data();
+            initData();
           }
         });
-      };
+      }
 
       // Initialize starting content
-      function init_data() {
+      function initData() {
         numberOfCards = data.cards.length;
         nextCard.data = data.cards[1];
         nextCard.content.text(nextCard.data.question);
@@ -133,32 +133,32 @@ var coding4kicksApp = angular.module('coding4kicksApp', [])
         currentCard.content.text(currentCard.data.question);
         previousCard.data = data.cards[numberOfCards - 1];
         previousCard.content.text(previousCard.data.question);
-        nextCard.cardNum.text(2)
-        currentCard.cardNum.text(1)
-        previousCard.cardNum.text(numberOfCards)
+        nextCard.cardNum.text(2);
+        currentCard.cardNum.text(1);
+        previousCard.cardNum.text(numberOfCards);
 
         for(var i = 0; i < 3; i++) {
-          var div_holder = angular.element(cards[i].children()[2]);
-          cards[i]['title'] = angular.element(div_holder.children()[0]);
-          cards[i]['title'].text(data.title);
+          var divHolder = angular.element(cards[i].children()[2]);
+          cards[i].title = angular.element(divHolder.children()[0]);
+          cards[i].title.text(data.title);
           angular.element(cards[i].children()[1]).text(' / ' + numberOfCards);
 
-          if (typeof cards[i].data.answer === "undefined") {
-            cards[i].answerBtn.addClass("button-hide");
+          if (typeof cards[i].data.answer === 'undefined') {
+            cards[i].answerBtn.addClass('button-hide');
           }
         }
       }
 
       // Toggle the flashcards' visibility
-      function toggle_cards() {
-        if (typeof data === "undefined") {
+      function toggleCards() {
+        if (typeof data === 'undefined') {
           loadData();
         }
         flashcards.removeClass(showing ? 'cards-show' : 'cards-hide');
         flashcards.addClass(showing ? 'cards-hide' : 'cards-show');
         showing = !showing;
-      };
- 
+      }
+
       // Toggle between questions and answers, uses 'class hack' to id btn/card
       function toggleAnswer() {
         var classes = angular.element(this).attr('class');
@@ -167,20 +167,20 @@ var coding4kicksApp = angular.module('coding4kicksApp', [])
         }
         else if (classes.search('btn1') > 0) {
           swapContent(cards[1]);
-        } 
+        }
         else {
           swapContent(cards[2]);
         }
-      };
+      }
 
-      function swapContent(card) { 
-        card.content.text(card['answerShowing'] ? card.data.question : card.data.answer);
-        card.answerBtn.text(card['answerShowing'] ? 'Answer' : 'Question');
-        card['answerShowing'] = !card['answerShowing'];
+      function swapContent(card) {
+        card.content.text(card.answerShowing ? card.data.question : card.data.answer);
+        card.answerBtn.text(card.answerShowing ? 'Answer' : 'Question');
+        card.answerShowing = !card.answerShowing;
       }
 
       // Move to the next question
-      function next_question() {
+      function nextQuestion() {
 
         // disable next card's next button to prevent fast click through bug
         nextCard['nextBtn'].attr('disabled', true);
@@ -217,7 +217,7 @@ var coding4kicksApp = angular.module('coding4kicksApp', [])
       }
 
       // Move to the previous question
-      function prev_question() {
+      function prevQuestion() {
 
         // disable prev card's prev button to prevent fast click through bug
         previousCard['previousBtn'].attr('disabled', true);
