@@ -12,43 +12,22 @@
         { "name": "General", 
           "show": false,
           "rabbits": [
-            { "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+            { "name": "Leaky Abstraction", 
+              "link": "http://www.joelonsoftware.com/articles/LeakyAbstractions.html"
             },
-            { "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
-            },  
-            { "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+            { "name": "Wiki", 
+              "link": "http://en.wikipedia.org/wiki/Abstraction_%28computer_science%29"
+            }
           ] 
         },
         { "name": "Data Structures",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "APIs",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         }
       ]

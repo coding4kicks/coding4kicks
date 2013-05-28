@@ -34,18 +34,41 @@ def process_text(doc_text):
     # create list of question and answers from text list
     q_and_a_list = ':::'.join(doc_text[2:]).split(':::/:::')
     # split list into tuples of questions and answers
-    tuple_seq = [(item.split(":::-:::")[0], 
-                  item.split(":::-:::")[1]) 
-                    for item in q_and_a_list]
+   # for i, item in enumerate(q_and_a_list):
+   #     print item
+   #     print len(item)
+   #     if len(item) < 1:
+   #       print 'here'
+   #       q_and_a_list[i].append(None)
+   # tuple_seq = [(item.split(":::-:::")[0], 
+   #               item.split(":::-:::")[1]) 
+   #                 for item in q_and_a_list]
+    tuple_seq = [_split_items(item) for item in q_and_a_list]
     # convert ::: to newline in questions and answers
-    tuple_seq = [("\n".join(item[0].split(":::")), 
-                  "\n".join(item[1].split(":::"))) 
-                    for item in tuple_seq]
+    tuple_seq = [_convert_to_newlines(item) for item in q_and_a_list]
+    #tuple_seq = [("\n".join(item[0].split(":::")), 
+    #              "\n".join(item[1].split(":::"))) 
+    #                for item in tuple_seq]
     # create a list of question/answer dictionaries
     dict_seq = [{'question': item[0], 'answer': item[1]} 
                     for item in tuple_seq]
     flashcards['cards'] = dict_seq
     return flashcards
+
+def _split_items(item):
+    x = item.split(":::-:::")
+    if len(x) == 2:
+        return (x[0], x[1])
+    else:
+        return (x[0], None)
+
+def _convert_to_newlines(item):
+    x = item.split(":::-:::")
+    if len(x) == 2:
+        return("\n".join(item[0].split(":::")), 
+               "\n".join(item[1].split(":::")))    
+    else:
+        return ("\n".join(item[0].split(":::")), None)
 
 def save_as_json(flashcards, json_file):
     """Convert dict to json and save flashcards."""

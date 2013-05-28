@@ -296,7 +296,7 @@ module.exports = function (grunt) {
     'imagemin',
     'cssmin',
     'htmlmin',
-    'concat',
+    //'concat',
     'copy',
     'cdnify',
     'ngmin',
