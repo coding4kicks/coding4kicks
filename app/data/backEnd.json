@@ -11,6 +11,9 @@
       "worlds": [
         { "name": "General", "show": false,
           "rabbits": [
+            { "name": "No HTML over the wire", 
+              "link": "http://catalystclass.com/2012/11/29/how-our-students-build-apps/"
+            },
             { "name": "DNS", 
               "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
             },

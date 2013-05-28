@@ -58,36 +58,55 @@
         { "name": "General", 
           "show": false,
           "rabbits": [
-            { "name": "Concepts Part 1", 
-              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0521780985",
-              "flash": "data/flashcards/concepts-pl-part1.json",
-              "comment": "#/disqus/python/concepts-in-pl"
-            },
             { "name": "Concepts Part 2", 
               "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0521780985",
               "flash": "data/flashcards/concepts-pl-part2.json",
               "comment": "#/disqus/python/concepts-in-pl"
             },
-            { "name": "Concepts Part 3", 
-              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0521780985",
-              "flash": "data/flashcards/concepts-pl-part3.json",
-              "comment": "#/disqus/python/concepts-in-pl"
+            { "name": "Blub", 
+              "link": "http://www.paulgraham.com/avg.html"
+            },
+            { "name": "Get High", 
+              "link": "http://www.paulgraham.com/icad.html"
+            },
+            { "name": "Type Systems", 
+              "link": "http://en.wikipedia.org/wiki/Type_system"
+            },
+            { "name": "Markup Langs", 
+              "link": "http://en.wikipedia.org/wiki/Markup_language"
+            },
+            { "name": "No More C++", 
+              "link": "http://simpleprogrammer.com/2012/12/01/why-c-is-not-back/"
             }
           ] 
         },
         { "name": "Functional",
           "show": false,
           "rabbits": [
+            { "name": "Concepts Part 1", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0521780985",
+              "flash": "data/flashcards/concepts-pl-part1.json",
+              "comment": "#/disqus/python/concepts-in-pl"
+            },
+            { "name": "Overview", 
+              "link": "http://www.ibm.com/developerworks/library/j-ft20/"
+            },
+            { "name": "Declarative", 
+              "link": "http://en.wikipedia.org/wiki/Declarative_programming"
+            }
           ] 
         },
         { "name": "Object",
           "show": false,
           "rabbits": [
-          ] 
-        },
-        { "name": "Other",
-          "show": false,
-          "rabbits": [
+            { "name": "Concepts Part 3", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0521780985",
+              "flash": "data/flashcards/concepts-pl-part3.json",
+              "comment": "#/disqus/python/concepts-in-pl"
+            },
+            { "name": "More Classes", 
+              "link": "http://lucumr.pocoo.org/2013/2/13/moar-classes/"
+            }
           ] 
         }
       ]
@@ -101,16 +120,34 @@
         { "name": "General", 
           "show": false,
           "rabbits": [
+            { "name": "FP versus OOP", 
+              "link": "http://stackoverflow.com/questions/327955/does-functional-programming-replace-gof-design-patterns"
+            },
+            { "name": "Wiki Def", 
+              "link": "http://en.wikipedia.org/wiki/Software_design_pattern"
+            },            
+            { "name": "Interfaces", 
+              "link": "http://glyph.twistedmatrix.com/2009/02/explaining-why-interfaces-are-great.html"
+            },
+            { "name": "Dependency Injection", 
+              "link": "http://martinfowler.com/articles/injection.html"
+            }
           ] 
         },
         { "name": "OOP",
           "show": false,
-          "rabbits": [
+          "rabbits": [           
+            { "name": "Gang of Four", 
+              "link": "http://www.amazon.com/gp/product/0201634988/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0201634988&linkCode=as2&tag=coding4kicks-20"
+            }
           ] 
         },
         { "name": "Enterprise",
           "show": false,
-          "rabbits": [
+          "rabbits": [           
+            { "name": "The Book", 
+              "link": "http://www.amazon.com/gp/product/0321127420/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321127420&linkCode=as2&tag=coding4kicks-20"
+            }
           ] 
         },
         { "name": "MVC",
@@ -120,7 +157,16 @@
         },
         { "name": "Asynch",
           "show": false,
-          "rabbits": [
+          "rabbits": [           
+            { "name": "Q", 
+              "link": "https://github.com/kriskowal/q"
+            },
+            { "name": "Callbacks vs. Promises", 
+              "link": "http://blog.jcoglan.com/2013/03/30/callbacks-are-imperative-promises-are-functional-nodes-biggest-missed-opportunity/"
+            },
+            { "name": "JS Promises", 
+              "link": "http://blog.parse.com/2013/01/29/whats-so-great-about-javascript-promises/"
+            }
           ] 
         }
       ]
@@ -182,26 +228,113 @@
         { "name": "General", 
           "show": false,
           "rabbits": [
+            { "name": "Pragmatic Programming", 
+              "link": "http://www.alperkimya.com.tr/licomas/app/files/modules/dosyalar/dosyalar_file/The%20Pragmatic%20Programmer,%20From%20Journeyman%20To%20Master.pdf"
+            },
+            { "name": "A Mythical Month", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0201835959"
+            },
+            { "name": "Fail Quickly", 
+              "link": "http://www.nytimes.com/2013/01/06/magazine/be-wrong-as-fast-as-you-can.html"
+            },
+            { "name": "Simple vs. Easy", 
+              "link": "http://www.infoq.com/presentations/Simple-Made-Easy"
+            },
+            { "name": "Places to Work", 
+              "link": "http://martinizer.com/alternative-places-to-get-work-done/"
+            },
+            { "name": "Qualities", 
+              "link": "http://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/"
+            },            
+            { "name": "Building Bootstrap", 
+              "link": "http://alistapart.com/article/building-twitter-bootstrap"
+            },            
+            { "name": "Distractions", 
+              "link": "http://prog21.dadgum.com/168.html"
+            }
           ] 
         },
         { "name": "Develpment",
           "show": false,
           "rabbits": [
+            { "name": "Practical Programming", 
+              "link": "http://www.codinghorror.com/blog/2009/02/the-ferengi-programmer.html"
+            },
+            { "name": "Planning", 
+              "link": "http://blog.hut8labs.com/coding-fast-and-slow.html"
+            },            
+            { "name": "Keep Software Small", 
+              "link": "http://mkhadikov.com/2012/02/02/programs-should-be-small.html"
+            },
+            { "name": "Kiss Cheat Sheet", 
+              "link": "http://gorban.org/post/32873465932/software-architecture-cheat-sheet"
+            },
+            { "name": "Code Review", 
+              "link": "http://blog.rbcommons.com/2013/04/24/using-checklists-for-code-review/"
+            },
+            { "name": "Shipping and Learning", 
+              "link": "http://blog.markstarkman.com/blog/2013/01/16/shipping-vs-learning/"
+            },
+            { "name": "SOP", 
+              "link": "http://nathanmarz.com/blog/suffering-oriented-programming.html"
+            },
+            { "name": "Scrum", 
+              "link": "http://lostechies.com/jimmybogard/2012/09/12/why-im-done-with-scrum/"
+            }
           ] 
         },
         { "name": "Testing",
           "show": false,
           "rabbits": [
+            { "name": "Hype", 
+              "link": "http://sturgill.github.io/2013/04/15/tests-are-overhyped/"
+            },
+            { "name": "BDD", 
+              "link": "http://dannorth.net/introducing-bdd/"
+            },
+            { "name": "Mocks", 
+              "link": "http://www.martinfowler.com/articles/mocksArentStubs.html"
+            }
           ] 
         },
         { "name": "Refactoring",
           "show": false,
           "rabbits": [
+            { "name": "The Book", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0201485672"
+            },
+            { "name": "Bad Code = Code", 
+              "link": "http://www.brandonsavage.net/when-to-write-bad-code/"
+            },
+            { "name": "Rewrites", 
+              "link": "http://www.joelonsoftware.com/articles/fog0000000069.html"
+            },
+            { "name": "Surviving Rewrites", 
+              "link": "http://onstartups.com/tabid/3339/bid/97052/Screw-You-Joel-Spolsky-We-re-Rewriting-It-From-Scratch.aspx"
+            },
+            { "name": "Maintenance", 
+              "link": "http://ferd.ca/code-janitor-nobody-s-dream-everyone-s-job-and-how-erlang-can-help.html"
+            }
           ] 
         },
         { "name": "Open Source",
           "show": false,
           "rabbits": [
+            { "name": "Reasons Why", 
+              "link": "http://www.codinghorror.com/blog/2013/03/why-ruby.html"
+            },
+            { "name": "Give Back", 
+              "link": "http://antirez.com/news/48"
+            },
+            { "name": "Don't Modify", 
+              "link": "http://cultureofdevelopment.com/blog/2013/02/28/open-source-and-the-ability-to-modify-code/"
+            },
+            { "name": "Ettiquette", 
+              "link": "http://quickpeople.wordpress.com/2013/04/14/a-plea-for-better-open-source-etiquette/"
+            },
+            { "name": "Ways to Contribute", 
+              "link": "http://blog.smartbear.com/software-quality/bid/167051/14-Ways-to-Contribute-to-Open-Source-without-Being-a-Programming-Genius-or-a-Rock-Star"
+            }
           ] 
         }
       ]
@@ -215,22 +348,61 @@
         { "name": "General", 
           "show": false,
           "rabbits": [
+            { "name": "Say It!", 
+              "link": "http://bjk5.com/post/38101106878/i-dont-understand",
+              "comment": "#/disqus/python/i-dont-know"
+            }
           ] 
         },
         { "name": "Grammar",
           "show": false,
           "rabbits": [
-
+            { "name": "Words and Language", 
+              "link": "http://www.youtube.com/watch?v=J7E-aoXLZGY"
+            }
           ] 
         },
         { "name": "Writing",
           "show": false,
           "rabbits": [
+            { "name": "Utilize This", 
+              "link": "http://www.edtgestion.hec.ulg.ac.be/upload/strunk%20%20white%20-%201979%20-%20elements%20of%20style.pdf"
+            },
+            { "name": "Orwell's 5 Rules", 
+              "link": "http://www.pickthebrain.com/blog/george-orwells-5-rules-for-effective-writing/",
+              "flash": "data/flashcards/orwells-five.json"
+            },
+            { "name": "Metaphor, Analog & Simile", 
+              "link": "http://www.pickthebrain.com/blog/george-orwells-5-rules-for-effective-writing/",
+              "flash": "data/flashcards/anal-met-sim.json"
+            },
+            { "name": "First Sentences", 
+              "link": "http://asserttrue.blogspot.com/2013/01/how-to-write-opening-sentence.html"
+            },
+            { "name": "In support of blogging", 
+              "link": "http://nathanmarz.com/blog/you-should-blog-even-if-you-have-no-readers.html"
+            }
           ] 
         },
-        { "name": "Speech",
+        { "name": "Presentation",
           "show": false,
           "rabbits": [
+            { "name": "Bad Slides", 
+              "link": "https://medium.com/on-management/de84841450a0"
+            },
+            { "name": "Free Kit", 
+              "link": "http://www.screencast-o-matic.com/"
+            }
+
+          ] 
+        },
+        { "name": "Negotiation",
+          "show": false,
+          "rabbits": [
+            { "name": "Like the FBI", 
+              "link": "http://www.npr.org/blogs/money/2012/12/21/167802325/episode-425-an-fbi-hostage-negotiator-buys-a-car",
+              "flash": "data/flashcards/fbi-negosh.json"
+            }
           ] 
         }
       ]
