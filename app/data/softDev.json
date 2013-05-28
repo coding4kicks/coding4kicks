@@ -12,10 +12,10 @@
         { "name": "General", 
           "show": false,
           "rabbits": [
-            { "name": "Leaky Abstraction", 
+            { "name": "Leaky Abstractions", 
               "link": "http://www.joelonsoftware.com/articles/LeakyAbstractions.html"
             },
-            { "name": "Wiki", 
+            { "name": "Wiki Def", 
               "link": "http://en.wikipedia.org/wiki/Abstraction_%28computer_science%29"
             }
           ] 
@@ -23,11 +23,28 @@
         { "name": "Data Structures",
           "show": false,
           "rabbits": [
+            { "name": "Good Programmers", 
+              "link": "http://programmers.stackexchange.com/questions/163185/torvalds-quote-about-good-programmer"
+            },            
+            { "name": "Set Intersection", 
+              "link": "http://stackoverflow.com/questions/497338/efficient-set-intersection-algorithm"
+            }
+          ] 
+        },
+        { "name": "Control Flow",
+          "show": false,
+          "rabbits": [
           ] 
         },
         { "name": "APIs",
           "show": false,
           "rabbits": [
+            { "name": "Intent", 
+              "link": "http://mathieu.fenniak.net/stop-designing-fragile-web-apis/"
+            },            
+            { "name": "Stripe's", 
+              "link": "http://amberonrails.com/building-stripes-api/"
+            }
           ] 
         }
       ]
@@ -41,57 +58,36 @@
         { "name": "General", 
           "show": false,
           "rabbits": [
-            { "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+            { "name": "Concepts Part 1", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0521780985",
+              "flash": "data/flashcards/concepts-pl-part1.json",
+              "comment": "#/disqus/python/concepts-in-pl"
             },
-            { "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
-            },  
-            { "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+            { "name": "Concepts Part 2", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0521780985",
+              "flash": "data/flashcards/concepts-pl-part2.json",
+              "comment": "#/disqus/python/concepts-in-pl"
+            },
+            { "name": "Concepts Part 3", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0521780985",
+              "flash": "data/flashcards/concepts-pl-part3.json",
+              "comment": "#/disqus/python/concepts-in-pl"
+            }
           ] 
         },
         { "name": "Functional",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Object",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Other",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         }
       ]
@@ -105,71 +101,26 @@
         { "name": "General", 
           "show": false,
           "rabbits": [
-            { "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
-            },
-            { "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
-            },  
-            { "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
           ] 
         },
         { "name": "OOP",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Enterprise",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "MVC",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Asynch",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         }
       ]
@@ -183,99 +134,41 @@
         { "name": "General", 
           "show": false,
           "rabbits": [
-            { "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
-            },
-            { "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
-            },  
-            { "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
           ] 
         },
         { "name": "Distributed",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Concurrent",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+            { "name": "Concepts in ProgLangs Ch. 14", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0521780985",
+              "flash": "data/flashcards/concepts-pl-ch14.json",
+              "comment": "#/disqus/python/concepts-in-pl"
+            }
           ] 
         },
         { "name": "Parallel",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Real Time",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Secure",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Scalable",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         }
       ]
@@ -289,71 +182,26 @@
         { "name": "General", 
           "show": false,
           "rabbits": [
-            { "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
-            },
-            { "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
-            },  
-            { "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
           ] 
         },
         { "name": "Develpment",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Testing",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Refactoring",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Open Source",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         }
       ]
@@ -367,57 +215,22 @@
         { "name": "General", 
           "show": false,
           "rabbits": [
-            { "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
-            },
-            { "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
-            },  
-            { "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
           ] 
         },
         { "name": "Grammar",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+
           ] 
         },
         { "name": "Writing",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Speech",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         }
       ]

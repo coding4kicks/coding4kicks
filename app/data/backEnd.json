@@ -28,71 +28,26 @@
         { "name": "Protocols",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "REST",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Serving",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "PyNet",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "Security",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         }
       ]

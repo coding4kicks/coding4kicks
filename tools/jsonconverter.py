@@ -34,23 +34,9 @@ def process_text(doc_text):
     # create list of question and answers from text list
     q_and_a_list = ':::'.join(doc_text[2:]).split(':::/:::')
     # split list into tuples of questions and answers
-   # for i, item in enumerate(q_and_a_list):
-   #     print item
-   #     print len(item)
-   #     if len(item) < 1:
-   #       print 'here'
-   #       q_and_a_list[i].append(None)
-   # tuple_seq = [(item.split(":::-:::")[0], 
-   #               item.split(":::-:::")[1]) 
-   #                 for item in q_and_a_list]
     tuple_seq = [_split_items(item) for item in q_and_a_list]
     # convert ::: to newline in questions and answers
     tuple_seq = [_convert_to_newlines(item) for item in q_and_a_list]
-    #tuple_seq = [("\n".join(item[0].split(":::")), 
-    #              "\n".join(item[1].split(":::"))) 
-    #                for item in tuple_seq]
-    # create a list of question/answer dictionaries
-    print tuple_seq
     dict_seq = [{'question': item[0], 'answer': item[1]} 
                     for item in tuple_seq]
     flashcards['cards'] = dict_seq
