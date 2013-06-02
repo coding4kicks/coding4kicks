@@ -180,11 +180,35 @@
         { "name": "General", 
           "show": false,
           "rabbits": [
+            { "name": "Connect to phones",
+              "link": "http://www.twilio.com/"
+            }
           ] 
         },
         { "name": "Distributed",
           "show": false,
           "rabbits": [
+            { "name": "Concepts and Designs",
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0132143011"
+            },
+            { "name": "Common Fallacies",
+              "link": "http://en.wikipedia.org/wiki/Fallacies_of_Distributed_Computing"
+            },
+            { "name": "Brewer",
+              "link": "http://www.cs.berkeley.edu/~brewer/cs262b-2004/PODC-keynote.pdf"
+            },
+            { "name": "Three Tricks",
+              "link": "http://pedro.herokuapp.com/past/2012/12/3/three_fundamental_tricks_for_developers_writing_distributed_systems/"
+            },
+            { "name": "Words of Wisdom",
+              "link": "http://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/ "
+            },
+            { "name": "CAP",
+              "link": "http://codahale.com/you-cant-sacrifice-partition-tolerance/"
+            },
+            { "name": "Jeff Dean",
+              "link": "http://www.cs.cornell.edu/projects/ladis2009/talks/dean-keynote-ladis2009.pdf"
+            }
           ] 
         },
         { "name": "Concurrent",
@@ -194,17 +218,41 @@
               "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0521780985",
               "flash": "data/flashcards/concepts-pl-ch14.json",
               "comment": "#/disqus/python/concepts-in-pl"
+            },
+            { "name": "Concurrency, Parallelism, and Go", 
+              "link": "http://concur.rspace.googlecode.com/hg/talk/concur.html"
+            },
+            { "name": "Python Examples", 
+              "link": "http://wiki.python.org/moin/Concurrency/99Bottles"
             }
           ] 
         },
         { "name": "Parallel",
           "show": false,
           "rabbits": [
+            { "name": "MapReduce", 
+              "link": "http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/archive/mapreduce-osdi04.pdf"
+            },
+            { "name": "MR Algorithms", 
+              "link": "http://www.cs.washington.edu/education/courses/cse490h/08au/lectures/algorithms.pdf"
+            },
+            { "name": "MPI", 
+              "link": "http://www.mpi-forum.org/docs/mpi22-report/node5.htm#Node5"
+            },
+            { "name": "Python MPI", 
+              "link": "http://mpi4py.scipy.org/docs/usrman/intro.html"
+            },
+            { "name": "Mach Learn", 
+              "link": "http://www.youtube.com/watch?v=0CYFwJqQizA"
+            }
           ] 
         },
         { "name": "Real Time",
           "show": false,
-          "rabbits": [
+          "rabbits": [           
+            { "name": "Two Queues", 
+              "link": "http://blog.jupo.org/2013/02/23/a-tale-of-two-queues/"
+            }
           ] 
         },
         { "name": "Secure",
