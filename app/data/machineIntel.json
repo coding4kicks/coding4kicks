@@ -241,45 +241,34 @@
       "worlds": [
         { "name": "General", "show": false,
           "rabbits": [
-            { "name": "DNS", 
-              "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
+            { "name": "Computer Vision", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0130307963"
             },
-            { "name": "Run your own DNS", 
-              "link": "http://bugsplat.info/2012-12-31-how-i-run-my-own-dns.html"
+            { "name": "Image Processing", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=013168728X"
             },  
-            { "name": "Routing", 
-              "link": "http://blog.cloudflare.com/why-google-went-offline-today-and-a-bit-about"
+            { "name": "Papers", 
+              "link": "http://computervisionblog.wordpress.com/2012/02/10/the-most-cited-papers-in-computer-vision/"
             },  
-            { "name": "Authentication", 
-              "link": "http://unixpapa.com/auth/basic.html"
+            { "name": "EigenFaces", 
+              "link": "http://www.face-rec.org/algorithms/PCA/jcn.pdf"
+            },   
+            { "name": "Few Examples", 
+              "link": "http://scholar.google.com/citations?view_op=view_citation&hl=en&user=j29kMCwAAAAJ&citation_for_view=j29kMCwAAAAJ:2osOgNQ5qMEC"
             }  
-          ] 
-        },
-        { "name": "Papers",
-          "show": false,
-          "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
           ] 
         },
         { "name": "OpenCV",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "The Book", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0596516134"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "Python API", 
+              "link": "http://opencv.willowgarage.com/documentation/python/"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+            { "name": "Getting Started", 
+              "link": "http://www.neuroforge.co.uk/index.php/getting-started-with-python-a-opencv"
             } 
           ] 
         }
