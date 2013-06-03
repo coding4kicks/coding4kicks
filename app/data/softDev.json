@@ -258,11 +258,41 @@
         { "name": "Secure",
           "show": false,
           "rabbits": [
+            { "name": "Zero Day", 
+              "link": "http://en.wikipedia.org/wiki/Zero-day_attack"
+            },
+            { "name": "China Gang", 
+              "link": "http://www.symantec.com/connect/blogs/elderwood-project"
+            },
+            { "name": "China Bang", 
+              "link": "http://www.wired.com/threatlevel/2012/09/google-hacker-gang-returns/all/"
+            },
+            { "name": "Ruby Destruction", 
+              "link": "http://rubysource.com/anatomy-of-an-exploit-an-in-depth-look-at-the-rails-yaml-vulnerability/#"
+            },
+            { "name": "Crypto", 
+              "link": "http://www.kalzumeus.com/2013/01/31/what-the-rails-security-issue-means-for-your-startup/"
+            },
+            { "name": "Lessons", 
+              "link": "http://rubysource.com/anatomy-of-an-exploit-an-in-depth-look-at-the-rails-yaml-vulnerability/#"
+            }
           ] 
         },
         { "name": "Scalable",
           "show": false,
           "rabbits": [
+            { "name": "Reddit's Take", 
+              "link": "http://highscalability.com/blog/2010/5/17/7-lessons-learned-while-building-reddit-to-270-million-page.html"
+            },
+            { "name": "Github's Take", 
+              "link": "https://github.com/blog/1252-how-we-keep-github-fast"
+            },
+            { "name": "Good Films", 
+              "link": "http://jrb.tumblr.com/post/30570014929/scaling-rails-at-melbourne-roro"
+            },
+            { "name": "Chaos Monkey", 
+              "link": "http://www.codinghorror.com/blog/2011/04/working-with-the-chaos-monkey.html"
+            }
           ] 
         }
       ]
