@@ -31,26 +31,110 @@
         { "name": "Protocols",
           "show": false,
           "rabbits": [
+            { "name": "Computer Networking - Top Down", 
+              "link": "http://www.amazon.com/gp/product/0321497708/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321497708&linkCode=as2&tag=coding4kicks-20"
+            },
+            { "name": "Why CORS", 
+              "link": "http://www.quora.com/Isnt-CORS-the-opposite-of-what-youd-want"
+            },
+            { "name": "What CORS", 
+              "link": "http://www.w3.org/TR/cors/"
+            },
+            { "name": "How CORS", 
+              "link": "http://www.html5rocks.com/en/tutorials/cors/"
+            },
+            { "name": "SSH", 
+              "link": "http://en.wikipedia.org/wiki/Secure_Shell"
+            },
+            { "name": "SSL/TLS", 
+              "link": "http://en.wikipedia.org/wiki/Transport_Layer_Security"
+            },
+            { "name": "SSL/TLS Explanation", 
+              "link": "http://security.stackexchange.com/questions/20803/how-does-ssl-work/20833"
+            },
+            { "name": "Cheap Certs", 
+              "link": "http://www.godaddy.com/ssl/ssl-certificates.aspx"
+            }
           ] 
         },
         { "name": "REST",
           "show": false,
           "rabbits": [
+            { "name": "The Paper", 
+              "link": "http://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm"
+            },
+            { "name": "A Tutorial", 
+              "link": "http://rest.elkstein.org/2008/02/what-is-rest.html"
+            },
+            { "name": "Security", 
+              "link": "http://www.infoq.com/news/2010/01/rest-api-authentication-schemes"
+            },
+            { "name": "Versus SOAP", 
+              "link": "http://stackoverflow.com/questions/209905/rest-and-soap"
+            }
           ] 
         },
         { "name": "Serving",
           "show": false,
           "rabbits": [
+            { "name": "Tutorial", 
+              "link": "http://arstechnica.com/gadgets/2012/11/how-to-set-up-a-safe-and-secure-web-server/2/"
+            },
+            { "name": "Python Benchmark", 
+              "link": "http://nichol.as/benchmark-of-python-web-servers"
+            },
+            { "name": "Twisted Node Tornado", 
+              "link": "http://stackoverflow.com/questions/3461549/what-are-the-use-cases-of-node-js-vs-twisted"
+            },
+            { "name": "Engine X1", 
+              "link": "http://arstechnica.com/business/2011/11/a-faster-web-server-ripping-out-apache-for-nginx/"
+            },
+            { "name": "Engine X2", 
+              "link": "http://www.aosabook.org/en/nginx.html"
+            },
+            { "name": "Engine X Hacks + cool stuff", 
+              "link": "http://www.evanmiller.org/"
+            },
+            { "name": "Engine X load balance", 
+              "link": "http://blog.jsdelivr.com/2013/01/nginx-load-balancing-basics.html"
+            }
           ] 
         },
         { "name": "PyNet",
           "show": false,
           "rabbits": [
+            { "name": "Foundations", 
+              "link": "http://www.amazon.com/gp/product/1590593715/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1590593715&linkCode=as2&tag=coding4kicks-20"
+            },
+            { "name": "Sockets", 
+              "link": "http://www.binarytides.com/python-socket-programming-tutorial/"
+            }
           ] 
         },
         { "name": "Security",
           "show": false,
           "rabbits": [
+            { "name": "OWASP Top 10", 
+              "link": "https://www.owasp.org/index.php/Top_10_2010-Main"
+            },
+            { "name": "Overview", 
+              "link": "http://stackoverflow.com/questions/549/the-definitive-guide-to-forms-based-website-authentication"
+            },
+            { "name": "Cookie Tossing", 
+              "link": "https://github.com/blog/1466-yummy-cookies-across-domains"
+            },
+            { "name": "Sniffing Tutorial", 
+              "link": "http://www.netresec.com/?page=Blog&month=2011-03&post=Sniffing-Tutorial-part-1---Intercepting-Network-Traffic"
+            },
+            { "name": "Diffie-Hellman", 
+              "link": "http://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange"
+            },
+            { "name": "Vulnerabilities", 
+              "link": "http://www.symantec.com/connect/articles/common-security-vulnerabilities-e-commerce-systems"
+            },
+            { "name": "Privacy", 
+              "link": "http://blog.whitehatsec.com/i-know-series-summary-and-guidance/"
+            }
           ] 
         }
       ]

@@ -338,9 +338,15 @@
             { "name": "Practical Programming", 
               "link": "http://www.codinghorror.com/blog/2009/02/the-ferengi-programmer.html"
             },
+            { "name": "Specs", 
+              "link": "http://www.joelonsoftware.com/articles/fog0000000036.html"
+            },
             { "name": "Planning", 
               "link": "http://blog.hut8labs.com/coding-fast-and-slow.html"
-            },            
+            }, 
+            { "name": "Schedules", 
+              "link": "http://www.joelonsoftware.com/items/2007/10/26.html"
+            },           
             { "name": "Keep Software Small", 
               "link": "http://mkhadikov.com/2012/02/02/programs-should-be-small.html"
             },
