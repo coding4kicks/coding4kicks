@@ -11,115 +11,101 @@
       "worlds": [
         { "name": "General", "show": false,
           "rabbits": [
-            { "name": "DNS", 
-              "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
+            { "name": "Data Science League", 
+              "link": "http://www.kaggle.com/competitions"
             },
-            { "name": "Run your own DNS", 
-              "link": "http://bugsplat.info/2012-12-31-how-i-run-my-own-dns.html"
+            { "name": "Mining Massive Data Sets", 
+              "link": "http://infolab.stanford.edu/~ullman/mmds.html"
             },  
-            { "name": "Routing", 
-              "link": "http://blog.cloudflare.com/why-google-went-offline-today-and-a-bit-about"
+            { "name": "Resources 1", 
+              "link": "http://conductrics.com/data-science-resources/"
             },  
-            { "name": "Authentication", 
-              "link": "http://unixpapa.com/auth/basic.html"
-            }  
-          ] 
-        },
-        { "name": "Models",
-          "show": false,
-          "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "Resources 2", 
+              "link": "http://blog.zipfianacademy.com/post/46864003608/a-practical-intro-to-data-science"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "How to Share", 
+              "link": "http://www.caitlinrivers.com/1/post/2013/04/send-me-your-data-pdf-is-fine-said-no-one-ever-how-to-share-your-data-effectively.html"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+            { "name": "Real Time Trap", 
+              "link": "http://mcfunley.com/whom-the-gods-would-destroy-they-first-give-real-time-analytics"
+            },  
+            { "name": "Over Causation", 
+              "link": "http://mcfunley.com/effective-web-experimentation-as-a-homo-narrans"
+            },
+            { "name": "HN Take on Data Scientist", 
+              "link": "http://news.ycombinator.com/item?id=4658391"
+            },  
+            { "name": "Munging with Unix", 
+              "link": "http://www.drbunsen.org/explorations-in-unix.html"
+            },  
+            { "name": "Facebook Analysis", 
+              "link": "http://blog.stephenwolfram.com/2013/04/data-science-of-the-facebook-world/"
+            }    
           ] 
         },
         { "name": "Visualization",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "Display of Quant", 
+              "link": "http://rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0961392142"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "Envisioning Info", 
+              "link": "http://www.amazon.com/gp/product/0961392118/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0961392118&linkCode=as2&tag=coding4kicks-20"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
-          ] 
-        },
-        { "name": "APIs",
-          "show": false,
-          "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "Resources", 
+              "link": "http://selection.datavisualization.ch/"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "D3.js", 
+              "link": "http://d3js.org/"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+            { "name": "D3 Video", 
+              "link": "http://vimeo.com/29458354"
+            },
+            { "name": "Selections", 
+              "link": "http://bost.ocks.org/mike/selection/"
+            },  
+            { "name": "Fourier Visualization", 
+              "link": "https://en.wikipedia.org/wiki/Fourier_transform"
+            },  
+            { "name": "Central Limit Visualization", 
+              "link": "http://blog.vctr.me/posts/central-limit-theorem.html"
+            }    
           ] 
         },
         { "name": "Pandas",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "The Site", 
+              "link": "http://pandas.pydata.org/"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "The Book", 
+              "link": "http://rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1449319793"
+            },
+            { "name": "A Good Review", 
+              "link": "http://www.johndcook.com/blog/2012/10/24/python-for-data-analysis/"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+            { "name": "Versus R", 
+              "link": "http://blog.yhathq.com/posts/R-and-pandas-and-what-ive-learned-about-each.html"
             } 
           ] 
-        },
-        { "name": "SciNumPy",
+        },       
+        { "name": "Hapoop",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "The Definitive Guide", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0596521979"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "In Action", 
+              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1935182196"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
-          ] 
-        },
-        { "name": "MatPlotLib",
-          "show": false,
-          "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "with Python", 
+              "link": "http://blog.cloudera.com/blog/2013/01/a-guide-to-python-frameworks-for-hadoop/"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
-          ] 
-        },
-        { "name": "R",
-          "show": false,
-          "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "dumbo", 
+              "link": "https://github.com/klbostee/dumbo/wiki/Short-tutorial"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+            { "name": "interesting class", 
+              "link": "http://www.cs264.org/index.html"
             } 
           ] 
         }

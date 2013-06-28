@@ -214,26 +214,6 @@
             }  
           ] 
         },
-        { "name": "Hapoop",
-          "show": false,
-          "rabbits": [
-            { "name": "The Definitive Guide", 
-              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0596521979"
-            },
-            { "name": "In Action", 
-              "link": "http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1935182196"
-            },  
-            { "name": "with Python", 
-              "link": "http://blog.cloudera.com/blog/2013/01/a-guide-to-python-frameworks-for-hadoop/"
-            },  
-            { "name": "dumbo", 
-              "link": "https://github.com/klbostee/dumbo/wiki/Short-tutorial"
-            },  
-            { "name": "interesting class", 
-              "link": "http://www.cs264.org/index.html"
-            } 
-          ] 
-        },
         { "name": "Firebase",
           "show": false,
           "rabbits": [
