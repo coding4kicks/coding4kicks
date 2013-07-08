@@ -366,6 +366,7 @@
           "rabbits": [
             { "name": "Essential Reference Ch. 6", 
               "link": "http://www.amazon.com/gp/product/0672329786/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0672329786&linkCode=as2&tag=coding4kicks-20",
+              "flash": "data/flashcards/ch6-essential-ref.json",
               "comment": "#/disqus/python/essential-ref"
             },
             { "name": "yield", 
@@ -446,8 +447,7 @@
         { "name": "IPython", "show": false,
           "rabbits": [
             { "name": "IPython", 
-              "link": "http://ipython.org/",
-              "comment": "#/disqus/python/essential-ref"
+              "link": "http://ipython.org/"
             },
             { "name": "Video Intro", 
               "link": "http://ipython.org/videos.html#videos"
@@ -464,6 +464,27 @@
       "worlds": [        
         { "name": "General", "show": false,
           "rabbits": [
+            { "name": "Lock Down", 
+              "link": "http://plusbryan.com/my-first-5-minutes-on-a-server-or-essential-security-for-linux-servers"
+            },
+            { "name": "Daemons", 
+              "link": "http://tech.cueup.com/blog/2013/03/08/running-daemons/"
+            },  
+            { "name": "Circus", 
+              "link": "http://circus.readthedocs.org/en/0.6/"
+            },
+            { "name": "Virtualenv, Fabric & Pip", 
+              "link": "www.clemesha.org/blog/modern-python-hacker-tools-virtualenv-fabric-pip/"
+            },  
+            { "name": "Vagrant +", 
+              "link": "http://stevelosh.com/blog/2011/06/django-advice/"
+            },
+            { "name": "Bash Scripting", 
+              "link": "http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html"
+            },  
+            { "name": "Chef vs. Puppet", 
+              "link": "http://devopsanywhere.blogspot.com/2011/10/puppet-vs-chef-fight.html"
+            }
           ] 
         },
         { "name": "Linux", "show": false,
@@ -546,6 +567,47 @@
             },  
             { "name": "Route 53",
               "link": "http://davewasmer.tumblr.com/post/31283249223/migrating-from-godaddy-dns-to-amazon-route-53"
+            }     
+          ] 
+        },
+        { "name": "Git", "show": false,
+          "rabbits": [
+            { "name": "Pro Book", 
+              "link": "http://git-scm.com/book/en/Getting-Started",
+              "flash": "data/flashcards/git-book.json"
+            },
+            { "name": "On Dropbox", 
+              "link": "http://stackoverflow.com/questions/1960799/using-git-and-dropbox-together-effectively"
+            },  
+            { "name": "Cheatsheat", 
+              "link": "http://byte.kde.org/~zrusin/git/git-cheat-sheet-medium.png"
+            },
+            { "name": "Videos", 
+              "link": "http://www.youtube.com/GitHubGuides"
+            },  
+            { "name": "Resolve Merges", 
+              "link": "http://www.kernel.org/pub/software/scm/git/docs/v1.7.3/user-manual.html#resolving-a-merge"
+            } ,
+            { "name": "Change last commit", 
+              "link": "http://stackoverflow.com/questions/179123/how-do-i-edit-an-incorrect-commit-message-in-git"
+            },  
+            { "name": "Remove a file", 
+              "link": "http://stackoverflow.com/questions/936249/removing-a-file-from-git-source-control-but-not-from-the-source"
+            } ,
+            { "name": "Track a remote", 
+              "link": "http://caiustheory.com/adding-a-remote-to-existing-git-repo"
+            },  
+            { "name": "-u", 
+              "link": "http://stackoverflow.com/questions/5697750/what-exactly-does-the-u-do-git-push-u-origin-master-vs-git-push-origin-ma"
+            },  
+            { "name": "Tips to avoid job loss",
+              "link": "http://blog.apiaxle.com/post/handy-git-tips-to-stop-you-getting-fired/"
+            },  
+            { "name": "Stash",
+              "link": "http://stackoverflow.com/questions/1105253/how-would-i-extract-a-single-file-or-changes-to-a-file-from-a-git-stash"
+            },  
+            { "name": "Diff Trick",
+              "link": "http://blog.moertel.com/posts/2013-02-18-git-second-order-diff.html"
             }     
           ] 
         },

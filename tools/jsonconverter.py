@@ -72,7 +72,7 @@ def _get_directories():
 
 
 if __name__ == '__main__':
-
+    """Type in doc-name.docx to convert.  Finds file in questions."""
     doc_name = sys.argv[1]
     json_name = doc_name.rpartition('.')[0] + '.json'
     doc_dir, json_dir = _get_directories()
