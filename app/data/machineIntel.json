@@ -119,101 +119,40 @@
       "worlds": [
         { "name": "General", "show": false,
           "rabbits": [
-            { "name": "DNS", 
-              "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
+            { "name": "ML", 
+              "link": "http://www.amazon.com/gp/product/0070428077/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0070428077&linkCode=as2&tag=coding4kicks-20"
             },
-            { "name": "Run your own DNS", 
-              "link": "http://bugsplat.info/2012-12-31-how-i-run-my-own-dns.html"
+            { "name": "Pattern Rec", 
+              "link": "http://www.amazon.com/gp/product/0387310738/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0387310738&linkCode=as2&tag=coding4kicks-20"
             },  
-            { "name": "Routing", 
-              "link": "http://blog.cloudflare.com/why-google-went-offline-today-and-a-bit-about"
+            { "name": "A Flow Chart", 
+              "link": "http://peekaboo-vision.blogspot.com/2013/01/machine-learning-cheat-sheet-for-scikit.html"
             },  
-            { "name": "Authentication", 
-              "link": "http://unixpapa.com/auth/basic.html"
-            }  
-          ] 
-        },
-        { "name": "Neural Networks",
-          "show": false,
-          "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "Great Class", 
+              "link": "https://www.coursera.org/course/ml"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "In Industry", 
+              "link": "http://moalquraishi.wordpress.com/2013/03/17/what-hintons-google-move-says-about-the-future-of-machine-learning/"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+            { "name": "Deep Reading List", 
+              "link": "http://deeplearning.net/reading-list/"
+            },  
+            { "name": "Hapoop", 
+              "link": "https://github.com/0xdata/h2o#readme"
             } 
           ] 
         },
-        { "name": "Bayesian",
+        { "name": "Python",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "options", 
+              "link": "http://stackoverflow.com/questions/7326958/python-machine-learning-library"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "scikit", 
+              "link": "http://scikit-learn.org/stable/"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
-          ] 
-        },
-        { "name": "Unsupervised",
-          "show": false,
-          "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
-          ] 
-        },
-        { "name": "Parallel",
-          "show": false,
-          "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
-          ] 
-        },
-        { "name": "SciKit Learn",
-          "show": false,
-          "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
-          ] 
-        },
-        { "name": "Octave & Matlab",
-          "show": false,
-          "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+            { "name": "pybrain", 
+              "link": "http://pybrain.org/"
             } 
           ] 
         }
@@ -268,87 +207,62 @@
       "worlds": [
         { "name": "General", "show": false,
           "rabbits": [
-            { "name": "DNS", 
-              "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
+            { "name": "Intro", 
+              "link": "http://nlp.stanford.edu/IR-book/"
             },
-            { "name": "Run your own DNS", 
-              "link": "http://bugsplat.info/2012-12-31-how-i-run-my-own-dns.html"
+            { "name": "Google", 
+              "link": "http://infolab.stanford.edu/~backrub/google.html"
             },  
-            { "name": "Routing", 
-              "link": "http://blog.cloudflare.com/why-google-went-offline-today-and-a-bit-about"
+            { "name": "Page Rank", 
+              "link": "http://ilpubs.stanford.edu:8090/422/"
             },  
-            { "name": "Authentication", 
-              "link": "http://unixpapa.com/auth/basic.html"
+            { "name": "WordNet", 
+              "link": "http://wordnet.princeton.edu/"
             }  
           ] 
         },
         { "name": "Natural Lang",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "toolkit", 
+              "link": "http://nltk.org/index.html"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "book", 
+              "link": "http://nltk.org/book/"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
-          ] 
-        },
-        { "name": "NLTK",
-          "show": false,
-          "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
-          ] 
-        },
-        { "name": "WordNet",
-          "show": false,
-          "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+            { "name": "interesting", 
+              "link": "http://radimrehurek.com/gensim/index.html"
             } 
           ] 
         },
         { "name": "Parsing",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "Lxml", 
+              "link": "http://lxml.de/"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "lxml.html", 
+              "link": "http://lxml.de/lxmlhtml.html"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+            { "name": "Scraping Lessons", 
+              "link": "http://blog.hartleybrody.com/web-scraping/"
+            },  
+            { "name": "Beautiful Soup", 
+              "link": "http://www.crummy.com/software/BeautifulSoup/"
+            }  
           ] 
         },
         { "name": "Spiders",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "Battle Bots", 
+              "link": "http://www.fleiner.com/bots/"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "robots.txt", 
+              "link": "http://wiki.dreamhost.com/Bots_spiders_and_crawlers"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+            { "name": "busted at 40", 
+              "link": "http://webmasters.stackexchange.com/questions/23084/ms-bing-web-crawler-out-of-control-causing-our-site-to-go-down"
             } 
           ] 
         }
@@ -362,31 +276,25 @@
       "worlds": [
         { "name": "General", "show": false,
           "rabbits": [
-            { "name": "DNS", 
-              "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
-            },
-            { "name": "Run your own DNS", 
-              "link": "http://bugsplat.info/2012-12-31-how-i-run-my-own-dns.html"
-            },  
-            { "name": "Routing", 
-              "link": "http://blog.cloudflare.com/why-google-went-offline-today-and-a-bit-about"
-            },  
-            { "name": "Authentication", 
-              "link": "http://unixpapa.com/auth/basic.html"
-            }  
+            { "name": "Networks, Crowds, Markets", 
+              "link": "http://www.amazon.com/gp/product/0521195330/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0521195330&linkCode=as2&tag=coding4kicks-20"
+            }   
           ] 
         },
         { "name": "Graphs",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "Trees", 
+              "link": "https://en.wikipedia.org/wiki/Tree_%28graph_theory%29"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+            { "name": "BFS", 
+              "link": "https://en.wikipedia.org/wiki/Breadth_first_search"
+            },  
+            { "name": "DFS", 
+              "link": "https://en.wikipedia.org/wiki/Depth-first_search"
+            },  
+            { "name": "Gephi", 
+              "link": "http://gephi.org/"
             } 
           ] 
         }
@@ -400,102 +308,102 @@
       "worlds": [
         { "name": "General", "show": false,
           "rabbits": [
-            { "name": "DNS", 
-              "link": "http://support.google.com/a/bin/answer.py?hl=en&answer=48090"
+            { "name": "Birth of Numbers", 
+              "link": "http://www.amazon.com/gp/product/039304002X/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=039304002X&linkCode=as2&tag=coding4kicks-20"
             },
-            { "name": "Run your own DNS", 
-              "link": "http://bugsplat.info/2012-12-31-how-i-run-my-own-dns.html"
+            { "name": "Discrete", 
+              "link": "http://www.amazon.com/gp/product/0534359450/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0534359450&linkCode=as2&tag=coding4kicks-20"
             },  
-            { "name": "Routing", 
-              "link": "http://blog.cloudflare.com/why-google-went-offline-today-and-a-bit-about"
+            { "name": "Prove It", 
+              "link": "http://www.amazon.com/gp/product/0521675995/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0521675995&linkCode=as2&tag=coding4kicks-20"
             },  
-            { "name": "Authentication", 
-              "link": "http://unixpapa.com/auth/basic.html"
+            { "name": "Math and Hacking", 
+              "link": "http://www.evanmiller.org/mathematical-hacker.html"
+            },  
+            { "name": "Randomness", 
+              "link": "http://www.empiricalzeal.com/2012/12/21/what-does-randomness-look-like/"
             }  
           ] 
         },
         { "name": "Logic & Sets",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "Logic", 
+              "link": "http://www.amazon.com/gp/product/048628462X/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=048628462X&linkCode=as2&tag=coding4kicks-20"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "Sets", 
+              "link": "http://www.amazon.com/gp/product/0486453103/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0486453103&linkCode=as2&tag=coding4kicks-20"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+            { "name": "Lambda", 
+              "link": "http://plato.stanford.edu/entries/lambda-calculus/#Int"
             } 
           ] 
         },
         { "name": "Algebras",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+            { "name": "Linear", 
+              "link": "http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/"
+            }
           ] 
         },
         { "name": "Probabilities",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+            { "name": "statlect", 
+              "link": "http://www.statlect.com/fndprb.htm"
+            }
           ] 
         },
         { "name": "Analysis",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "Intro", 
+              "link": "http://www.amazon.com/gp/product/0486650383/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0486650383&linkCode=as2&tag=coding4kicks-20"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "Fourier 1", 
+              "link": "http://www.altdevblogaday.com/2011/05/17/understanding-the-fourier-transform/"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+            { "name": "Fourier 2", 
+              "link": "http://betterexplained.com/articles/an-interactive-guide-to-the-fourier-transform/"
             } 
           ] 
         },
         { "name": "Algorithms",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "Introduction", 
+              "link": "http://www.amazon.com/gp/product/0262033844/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0262033844&linkCode=as2&tag=coding4kicks-20"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+            { "name": "Videos", 
+              "link": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/video-lectures/"
+            }
           ] 
         },
         { "name": "Statistics",
           "show": false,
           "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            { "name": "A guide", 
+              "link": "http://www.amazon.com/gp/product/0062731025/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0062731025&linkCode=as2&tag=coding4kicks-20"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
+            { "name": "Informed Decisions", 
+              "link": "http://www.amazon.com/gp/product/0321568028/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321568028&linkCode=as2&tag=coding4kicks-20"
             },  
-            { "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+            { "name": "A Second Course", 
+              "link": "http://www.amazon.com/gp/product/0321691695/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321691695&linkCode=as2&tag=coding4kicks-20"
+            },
+            { "name": "Multivariate", 
+              "link": "http://www.amazon.com/gp/product/0138132631/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0138132631&linkCode=as2&tag=coding4kicks-20"
+            },  
+            { "name": "Understanding", 
+              "link": "http://www.amazon.com/gp/product/1557982732/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1557982732&linkCode=as2&tag=coding4kicks-20"
+            },
+            { "name": "Damn Lies", 
+              "link": "http://math-blog.com/2012/09/02/how-to-hang-yourself-with-statistics/"
+            },  
+            { "name": "Linear Regression & AB", 
+              "link": "http://www.evanmiller.org/linear-regression-for-fun-and-profit.html"
+            }  
           ] 
         }
       ]
