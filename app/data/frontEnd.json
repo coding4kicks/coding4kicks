@@ -231,12 +231,12 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Remove Excess", 
+              "link": "http://www.peterbe.com/plog/mincss"
             },
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
+              "name": "Well Done", 
+              "link": "http://wrapbootstrap.com/preview/WB0PHMG9K"
             } 
           ] 
         },
@@ -244,16 +244,16 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Bootstrap", 
+              "link": "http://twitter.github.io/bootstrap/index.html"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "Customize", 
+              "link": "http://antjanus.com/blog/web-design-tips/user-interface-usability/customize-twitter-bootstrap-into-themes/"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+              "name": "Font Awesome", 
+              "link": "http://fortawesome.github.io/Font-Awesome/"
             } 
           ] 
         },
@@ -261,49 +261,79 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Webfonts", 
+              "link": "http://www.html5rocks.com/en/tutorials/webfonts/quick/"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+              "name": "Transitions", 
+              "link": "https://developer.mozilla.org/en-US/docs/CSS/Tutorials/Using_CSS_transitions"
+            }
           ] 
         },
-        { "name": "Compass", 
+        { "name": "Sass & Compass", 
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Sass", 
+              "link": "http://sass-lang.com/"
             },
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+              "name": "Why", 
+              "link": "chriseppstein.github.com/blog/2009/09/20/why-stylesheet-abstraction-matters/"
+            },
+            {
+              "name": "Compass", 
+              "link": "http://compass-style.org/reference/compass/"
+            },
+            {
+              "name": "Sass, Compass, Sprites", 
+              "link": "http://www.bariswanschers.com/blog/use-sass-and-compass-streamline-your-css-development"
+            },
+            {
+              "name": "Project Organization", 
+              "link": "http://antjanus.com/blog/web-development-tutorials/front-end-development/organize-your-lesssass-css-for-a-large-project/"
+            },
+            {
+              "name": "Best Practices", 
+              "link": "http://compass-style.org/help/tutorials/best_practices/"
+            },
+            {
+              "name": "Sprites", 
+              "link": "http://compass-style.org/help/tutorials/spriting/"
+            }   
           ] 
         },
         { "name": "Hacks",
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "inline-block", 
+              "link": "http://robertnyman.com/2010/02/24/css-display-inline-block-why-it-rocks-and-why-it-sucks/"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "z-index and opacity", 
+              "link": "http://philipwalton.com/articles/what-no-one-told-you-about-z-index/"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+              "name": "Always show scrollbars", 
+              "link": "http://egilhansen.com/2007/03/28/css-trick-always-show-scrollbars"
             } 
           ] 
+        },
+        { "name": "Libs",
+          "show": false,
+          "rabbits": [
+            {
+              "name": "Tooltips", 
+              "link": "http://kushagragour.in/lab/hint/"
+            },
+            {
+              "name": "Progress Bars", 
+              "link": "http://css-tricks.com/css3-progress-bars/"
+            }
+          ] 
         }
+
       ]
     },
     {
