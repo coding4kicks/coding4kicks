@@ -333,7 +333,6 @@
             }
           ] 
         }
-
       ]
     },
     {
@@ -432,29 +431,89 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Elements", 
+              "link": "http://www.amazon.com/gp/product/1581157622/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1581157622&linkCode=as2&tag=coding4kicks-20"
             },
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+              "name": "Five Books", 
+              "link": "http://davidmckinney.com/blog/2013/1/15/the-best-5-design-books"
+            },
+            {
+              "name": "Battle", 
+              "link": "http://sachagreif.com/flat-pixels/"
+            },
+            {
+              "name": "Flatland", 
+              "link": "http://layervault.tumblr.com/post/32267022219/flat-interface-design"
+            },
+            {
+              "name": "Skeuomorphic Revolt", 
+              "link": "http://www.fastcodesign.com/1670760/will-apples-tacky-software-design-philosophy-cause-a-revolt"
+            },
+            {
+              "name": "Almost Flat", 
+              "link": "http://www.matthewmooredesign.com/almost-flat-design/"
+            },
+            {
+              "name": "Tips", 
+              "link": "http://24ways.org/2012/how-to-make-your-site-look-half-decent/"
+            },
+            {
+              "name": "Crash Course", 
+              "link": "http://throwww.com/a/1q3"
+            },
+            {
+              "name": "Subtle Patterns", 
+              "link": "http://subtlepatterns.com/thumbnail-view/"
+            },
+            {
+              "name": "99 Designs", 
+              "link": "http://99designs.com/"
+            },
+            {
+              "name": "SO 99", 
+              "link": "http://99designs.com/logo-design/contests/logo-stackoverflow-6774"
+            },
+            {
+              "name": "Simple Shapes", 
+              "link": "http://2dgameartforprogrammers.blogspot.in/2012/09/apache-helicopter.html"
+            }        
           ] 
         },
         { "name": "Usability",
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Everday Things", 
+              "link": "http://www.amazon.com/gp/product/0465067107/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0465067107&linkCode=as2&tag=coding4kicks-20"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "Don't Make Me Think", 
+              "link": "http://www.amazon.com/gp/product/0321344758/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0321344758&linkCode=as2&tag=coding4kicks-20"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+              "name": "Great Sites", 
+              "link": "http://www.webpagesthatsuck.com/"
+            },
+            {
+              "name": "Checklist", 
+              "link": "http://userium.com/"
+            },  
+            {
+              "name": "Against Responsive", 
+              "link": "https://managewp.com/5-reasons-why-responsive-design-is-not-worth-it"
+            },
+            {
+              "name": "No Carousels", 
+              "link": "http://conversionxl.com/dont-use-automatic-image-sliders-or-carousels-ignore-the-fad/"
+            },  
+            {
+              "name": "Responsive Email", 
+              "link": "http://www.zurb.com/playground/responsive-email-templates"
+            },
+            {
+              "name": "Responsive Tutorial", 
+              "link": "http://learn.shayhowe.com/advanced-html-css/responsive-web-design"
             } 
           ] 
         },
@@ -462,17 +521,9 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            {
-              "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+              "name": "Lynda", 
+              "link": "http://www.lynda.com/"
+            }
           ] 
         },
         {
@@ -480,13 +531,9 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
-            },
-            {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+              "name": "The Grid", 
+              "link": "http://rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1592531253"
+            }
           ] 
         },
         {
@@ -494,16 +541,16 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Thinking With Type", 
+              "link": "http://www.amazon.com/gp/product/1568989695/ref=as_li_tf_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1568989695&linkCode=as2&tag=sfard-20"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "Tutorial", 
+              "link": "http://kaikkonendesign.fi/typography/section/3"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+              "name": "Kerning", 
+              "link": "http://type.method.ac/#"
             } 
           ] 
         },
@@ -512,13 +559,17 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Color Scheme Picker", 
+              "link": "http://colorschemedesigner.com/"
             },
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+              "name": "Kuler Themes", 
+              "link": "https://kuler.adobe.com/explore/most-popular/?time=month"
+            },
+            {
+              "name": "Color Picker", 
+              "link": "http://www.colorpicker.com/"
+            }  
           ] 
         }
       ]
