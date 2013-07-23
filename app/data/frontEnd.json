@@ -231,6 +231,10 @@
           "show": false,
           "rabbits": [
             {
+              "name": "Missing Manual", 
+              "link": "http://www.amazon.com/gp/product/0596802447/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0596802447&linkCode=as2&tag=coding4kicks-20"
+            },
+            {
               "name": "Remove Excess", 
               "link": "http://www.peterbe.com/plog/mincss"
             },
