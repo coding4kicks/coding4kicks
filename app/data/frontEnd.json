@@ -12,101 +12,112 @@
         {"name": "General", 
           "show": false,
           "rabbits": [
-            {"name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+            {"name": "Ref", 
+              "link": "http://rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=coding4kicks-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0071741208"
             },
-            {"name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+            {"name": "For Against Coffee", 
+              "link": "http://ryanflorence.com/2011/case-against-coffeescript/"
+            },
+            {"name": "Google Style", 
+              "link": "http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml"
+            },
+            {"name": "JS CDN", 
+              "link": "http://blog.cloudflare.com/cdnjs-the-fastest-javascript-repo-on-the-web"
+            },
+            {"name": "Resources", 
+              "link": "http://superherojs.com/"
+            },
+            {"name": "JSON", 
+              "link": "http://www.json.org/"
+            },
+            {"name": "JSON with Python", 
+              "link": "http://www.doughellmann.com/PyMOTW/json/"
+            },
+            {"name": "Ajax Ref", 
+              "link": "http://www.amazon.com/gp/product/007149216X/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=007149216X&linkCode=as2&tag=coding4kicks-20"
+            },
+            {"name": "Phantomjs", 
+              "link": "http://phantomjs.org/"
+            },
+            {"name": "Lazy Eval for Mobile", 
+              "link": "http://calendar.perfplanet.com/2011/lazy-evaluation-of-commonjs-modules/"
+            },
+            {"name": "Visual Tutorials", 
+              "link": "http://www.jsdares.com/"
+            }          
           ] 
         },
         {"name": "Good Parts",
           "show": false,
           "rabbits": [
-            {"name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            {"name": "The Book", 
+              "link": "http://www.amazon.com/gp/product/0596517742/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0596517742&linkCode=as2&tag=coding4kicks-20"
             },
-            {"name": "and more", 
-              "link": "http://www.google.com/"
+            {"name": "The Site", 
+              "link": "http://javascript.crockford.com/"
             },  
             {"name": "better than less", 
               "link": "http://www.hackernews.com/"
             } 
           ] 
         },
-        {"name": "JSON",
+        {"name": "Libs",
           "show": false,
           "rabbits": [
-            {"name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            {"name": "JQuery", 
+              "link": "http://jquery.com/"
             },
-            {"name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            {"name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
-          ] 
-        },
-        {"name": "jQuery", 
-          "show": false,
-          "rabbits": [
-            {"name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
-            },
-            {"name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+            {"name": "JQuery Cheatsheet", 
+              "link": "http://oscarotero.com/jquery/"
+            }
           ] 
         },
         {"name": "DevBuild",
           "show": false,
           "rabbits": [
-            {"name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            {"name": "Yeoman", 
+              "link": "http://yeoman.io/"
             },
-            {"name": "and more", 
-              "link": "http://www.google.com/"
+            {"name": "Yeoman and Angular", 
+              "link": "http://briantford.com/blog/angular-yeoman.html"
             },  
-            {"name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+            {"name": "Grunt", 
+              "link": "http://gruntjs.com/"
+            },
+            {"name": "JSLint", 
+              "link": "http://briantford.com/blog/angular-yeoman.html"
+            },  
+            {"name": "JSHint", 
+              "link": "http://gruntjs.com/"
+            },
+            {"name": "Lint Errors", 
+              "link": "http://briantford.com/blog/angular-yeoman.html"
+            }  
           ] 
         },
         {"name": "Testing", 
           "show": false,
           "rabbits": [
-            {"name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+            {"name": "Karma", 
+              "link": "http://karma-runner.github.io/0.8/index.html"
             },
-            {"name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
-          ] 
-        },
-        { "name": "Packages",
-          "show": false,
-          "rabbits": [
-            { "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+            {"name": "Karma Video", 
+              "link": "http://www.youtube.com/watch?v=MVw8N3hTfCI"
             },
-            { "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-             {"name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+            {"name": "Jasmine", 
+              "link": "http://pivotal.github.io/jasmine/"
+            }  
           ] 
         },
         { "name": "Hacks", 
           "show": false,
           "rabbits": [
-            { "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+            { "name": "For In Ass Bite", 
+              "link": "http://stackoverflow.com/questions/3010840/loop-through-array-in-javascript"
             },
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
+              "name": "Detect Undefined", 
+              "link": "http://stackoverflow.com/questions/27509/detecting-an-undefined-object-property-in-javascript"
             } 
           ] 
         }
