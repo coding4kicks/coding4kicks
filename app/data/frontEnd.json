@@ -121,50 +121,53 @@
         { "name": "General", 
           "show": false,
           "rabbits": [
-            { "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+            { "name": "Ref", 
+              "link": "http://www.amazon.com/gp/product/0071496297/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0071496297&linkCode=as2&tag=coding4kicks-20"
             },
             {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+              "name": "Web Apps", 
+              "link": "http://rachelbythebay.com/w/2011/06/26/webapps/"
             },  
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
-          ] 
-        },
-        { "name": "Browsers",
-          "show": false,
-          "rabbits": [
-            {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "Web Apps Book", 
+              "link": "http://singlepageappbook.com/index.html"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+              "name": "Checklist", 
+              "link": "http://webdevchecklist.com/"
+            },  
+            {
+              "name": "Google Style", 
+              "link": "http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml"
+            },  
+            {
+              "name": "Resources", 
+              "link": "https://gist.github.com/dypsilon/5819504"
+            },  
+            {
+              "name": "S3 Blog & S3cmd", 
+              "link": "http://vvv.tobiassjosten.net/development/jekyll-blog-on-amazon-s3-and-cloudfront/"
+            },  
+            {
+              "name": "Watching in 2013", 
+              "link": "http://blog.alexmaccaw.com/the-next-web"
+            }      
           ] 
         },
         { "name": "Other Marks", 
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Markdown", 
+              "link": "http://daringfireball.net/projects/markdown/syntax"
             },
             {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+              "name": "Github Flavored", 
+              "link": "http://github.github.com/github-flavored-markdown/"
             },  
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
+              "name": "StackOverflow Flavored", 
+              "link": "http://stackoverflow.com/editing-help"
             } 
           ] 
         },
@@ -172,33 +175,66 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Firefox OS 1", 
+              "link": "http://sergimansilla.com/blog/promise-of-ffos/"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
+              "name": "Firefox OS 2", 
+              "link": "http://comoyo.github.com/blog/2012/12/18/Firefox-OS-challenges-the-closed-mobile-ecosystems/"
+            }
+          ] 
+        },
+        { "name": "Performance",
+          "show": false,
+          "rabbits": [
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+              "name": "High Performance", 
+              "link": "http://www.amazon.com/gp/product/0596529309/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0596529309&linkCode=as2&tag=coding4kicks-20"
+            },
+            {
+              "name": "Videos", 
+              "link": "http://stevesouders.com/videos.php"
+            },
+            {
+              "name": "Basic Perf", 
+              "link": "http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/"
+            },
+            {
+              "name": "Yslow", 
+              "link": "http://developer.yahoo.com/yslow/"
+            },
+            {
+              "name": "Layout Thrashing", 
+              "link": "http://kellegous.com/j/2013/01/26/layout-performance/"
+            },
+            {
+              "name": "Benchmarks", 
+              "link": "http://jan.prima.de/~jan/plok/archives/175-Benchmarks-You-are-Doing-it-Wrong.html"
+            }
           ] 
         },
         { "name": "5", 
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Resources", 
+              "link": "http://www.html5rocks.com/en/resources"
             },
             {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+              "name": "Boilerplate", 
+              "link": "http://html5boilerplate.com/"
             },  
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
+              "name": "Security", 
+              "link": "http://html5sec.org/"
+            },
+            {
+              "name": "Audio", 
+              "link": "http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library"
+            },  
+            {
+              "name": "Web Sockets", 
+              "link": "http://lucumr.pocoo.org/2012/9/24/websockets-101/"
             } 
           ] 
         },
@@ -206,17 +242,13 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Symbols", 
+              "link": "http://www.w3schools.com/tags/ref_symbols.asp"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+              "name": "New Window", 
+              "link": "http://www.w3schools.com/tags/att_a_target.asp"
+            }
           ] 
         }
       ]
