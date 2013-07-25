@@ -282,9 +282,17 @@
               "link": "http://www.peterbe.com/plog/mincss"
             },
             {
+              "name": "Zen Garden", 
+              "link": "http://csszengarden.com/"
+            },
+            {
+              "name": "Layouts", 
+              "link": "http://www.dynamicdrive.com/style/layouts/"
+            },
+            {
               "name": "Well Done", 
               "link": "http://wrapbootstrap.com/preview/WB0PHMG9K"
-            } 
+            }   
           ] 
         },
         { "name": "Bootstrap",
