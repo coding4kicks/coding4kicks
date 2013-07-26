@@ -400,29 +400,147 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Meteor", 
+              "link": "http://www.meteor.com/main"
             },
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+              "name": "Hoodie", 
+              "link": "http://hood.ie/"
+            },
+            {
+              "name": "Disqus", 
+              "link": "http://disqus.com/"
+            }  
           ] 
         },
         { "name": "Angular",
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Concepts", 
+              "link": "http://docs.angularjs.org/guide/concepts"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "Why", 
+              "link": "http://stackoverflow.com/questions/6548826/angular-js-vs-backbone-js"
             },  
             {
               "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+              "link": "http://www.youtube.com/user/angularjs"
+            },
+            {
+              "name": "Tutorials", 
+              "link": "http://egghead.io/"
+            },  
+            {
+              "name": "Tutorial", 
+              "link": "http://onehungrymind.com/angularjs-sticky-notes-pt-1-architecture/"
+            },
+            {
+              "name": "Tips", 
+              "link": "http://deansofer.com/posts/view/14/AngularJs-Tips-and-Tricks-UPDATED"
+            },  
+            {
+              "name": "Cheatsheet", 
+              "link": "http://www.cheatography.com/proloser/cheat-sheets/angularjs/"
+            },
+            {
+              "name": "UI", 
+              "link": "http://angular-ui.github.com/"
+            },  
+            {
+              "name": "From JQuery", 
+              "link": "http://stackoverflow.com/questions/14994391/how-do-i-think-in-angularjs-if-i-have-a-jquery-background"
+            },
+            {
+              "name": "From Backbone", 
+              "link": "http://www.localytics.com/blog/2013/angularjs-at-localytics/"
+            },  
+            {
+              "name": "With D3.js", 
+              "link": "http://briantford.com/blog/angular-d3.html"
+            },
+            {
+              "name": "With Yeoman", 
+              "link": "http://briantford.com/blog/angular-yeoman.html"
+            },  
+            {
+              "name": "With Bootstrap", 
+              "link": "http://mgcrea.github.com/angular-strap/"
+            },
+            {
+              "name": "With Firebase", 
+              "link": "https://www.firebase.com/blog/2013-03-29-firebase-bindings-for-angular.html"
+            },  
+            {
+              "name": "Databinding", 
+              "link": "http://stackoverflow.com/questions/9682092/databinding-in-angularjs"
+            },
+            {
+              "name": "Great Directive Example", 
+              "link": "http://onehungrymind.com/angularjs-directives-basics/"
+            },  
+            {
+              "name": "Dynamic Includes", 
+              "link": "http://blog.dynamicprogrammer.com/2012/09/19/dynamic-includes-with-angular-js.html"
+            },
+            {
+              "name": "Preload Partials", 
+              "link": "http://stackoverflow.com/questions/12346690/is-there-a-way-to-make-angularjs-load-partials-in-the-beginning-and-not-at-when"
+            },  
+            {
+              "name": "Make Sub-pages", 
+              "link": "http://ericterpstra.com/2 012/09/angular-cats-part-2-views-partials-and-controllers/"
+            },
+            {
+              "name": "Delay Route Change", 
+              "link": "http://stackoverflow.com/questions/11972026/delaying-angularjs-route-change-until-model-loaded-to-prevent-flicker"
+            }         
+          ] 
+        },
+        { "name": "Static",
+          "show": false,
+          "rabbits": [
+            {
+              "name": "All Static", 
+              "link": "http://www.allthingsdistributed.com/2011/02/website_amazon_s3.html"
+            },
+            {
+              "name": "Jekyll", 
+              "link": "https://github.com/mojombo/jekyll"
+            },  
+            {
+              "name": "Tute", 
+              "link": "http://vvv.tobiassjosten.net/development/jekyll-blog-on-amazon-s3-and-cloudfront/"
+            },  
+            {
+              "name": "Cactus", 
+              "link": "https://github.com/koenbok/Cactus"
+            } 
+          ] 
+        },
+        { "name": "Impress",
+          "show": false,
+          "rabbits": [
+            {
+              "name": "Demo", 
+              "link": "http://bartaz.github.io/impress.js/#/bored"
+            },
+            {
+              "name": "Code", 
+              "link": "https://github.com/bartaz/impress.js/"
+            },  
+            {
+              "name": "Tutorial", 
+              "link": "http://www.1stwebdesigner.com/css/creating-stunning-visualizations-with-impress-js/"
+            },
+            {
+              "name": "Others", 
+              "link": "http://jster.net/blog/html5-presentation-impress-reveal-deck-bespoke#.UWhGChk1c4Y"
+            },  
+            {
+              "name": "Intro", 
+              "link": "http://usablica.github.com/intro.js/"
             } 
           ] 
         },
@@ -430,50 +548,38 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "D3", 
+              "link": "http://d3js.org/"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "Video", 
+              "link": "http://vimeo.com/29458354"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+              "name": "Selections", 
+              "link": "http://bost.ocks.org/mike/selection/"
+            }
           ] 
         },
-        { "name": "Impress", 
+        { "name": "Backbone",
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "The Code", 
+              "link": "http://backbonejs.org/"
             },
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
-          ] 
-        },
-        { "name": "Raphael",
-          "show": false,
-          "rabbits": [
-            {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
-            },
-            {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "From JavaScript", 
+              "link": "http://www.ofbrooklyn.com/2012/11/13/backbonification-migrating-javascript-to-backbone/"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+              "name": "Rendering", 
+              "link": "http://ianstormtaylor.com/break-apart-your-backbonejs-render-methods/"
+            }
           ] 
-        }]
+        }
 
+      ]
     },
     {
       "title": "Design",
