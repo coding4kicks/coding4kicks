@@ -13,101 +13,274 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Don't Scale", 
+              "link": "http://paulgraham.com/ds.html"
             },
             {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+              "name": "Organization", 
+              "link": "http://techcrunch.com/2012/11/17/heres-how-spotify-scales-up-and-stays-agile-it-runs-squads-like-lean-startups/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29&utm_content=Google+Reader"
             },  
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+              "name": "Hell Ban", 
+              "link": "http://plusbryan.com/a-user-is-stealing-from-us-right-now-and-i-dont-mind"
+            },
+            {
+              "name": "Piracy", 
+              "link": "http://www.neowin.net/news/editorial-how-piracy-changed-my-life"
+            }  
           ] 
         },
         { "name": "People",
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Manage Developers", 
+              "link": "https://www.kennethnorton.com/essays/how-to-work-with-software-engineers.html"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "Keep People", 
+              "link": "http://moz.com/rand/never-have-the-what-would-it-take-to-keep-you-here-conversation/"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+              "name": "Respect", 
+              "link": "http://rachelbythebay.com/w/2011/07/05/panels/"
+            },
+            {
+              "name": "Standards", 
+              "link": "http://bhorowitz.com/2013/03/04/staying-great/"
+            },  
+            {
+              "name": "Politics", 
+              "link": "http://bhorowitz.com/2010/08/23/how-to-minimize-politics-in-your-company/"
+            },
+            {
+              "name": "Work and Life", 
+              "link": "http://firstround.com/article/How-Dave-Goldberg-of-SurveyMonkey-Built-a-Billion-Dollar-Business-and-Still-Gets-Home-By-5-30"
+            },  
+            {
+              "name": "Children", 
+              "link": "http://rachelbythebay.com/w/2011/06/23/bathrooms/"
+            },
+            {
+              "name": "Woz and Work", 
+              "link": "http://yeonhoyoon.tumblr.com/post/44682321591/letter-from-steve-wozniak-to-a-high-school-student-in"
+            },  
+            {
+              "name": "Be Flexible", 
+              "link": "http://www.articulateventures.com/thoughts-on-being-an-employer/salary-negotatiations-whats-possible-when-there-is-no-more-mone/"
+            },
+            {
+              "name": "Don't Bother Programmers", 
+              "link": "http://paulgraham.com/head.html"
+            },  
+            {
+              "name": "Technical Managers", 
+              "link": "http://dandreamsofcoding.com/2013/01/22/what-do-technical-managers-do-anyway/"
+            },
+            {
+              "name": "Trust", 
+              "link": "http://37signals.com/svn/posts/3453-no-more-remote-work-at-yahoo"
+            },  
+            {
+              "name": "Friends", 
+              "link": "http://bhorowitz.com/2012/04/24/demoting-a-loyal-friend/"
+            },  
+            {
+              "name": "MBAs", 
+              "link": "http://bhorowitz.com/2012/05/18/is-now-the-time-to-hire-mbas/"
+            }     
           ] 
         },
         { "name": "Product",
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Keep It Simple", 
+              "link": "http://blog.alexmaccaw.com/humble-beginnings"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "Finishing", 
+              "link": "http://makegames.tumblr.com/post/1136623767/finishing-a-game"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+              "name": "Checklist", 
+              "link": "http://en.wikipedia.org/wiki/George_H._Heilmeier#Heilmeier.27s_Catechism"
+            },
+            {
+              "name": "Ship It", 
+              "link": "http://www.codypowell.com/taods/2013/03/ship-it.html"
+            },  
+            {
+              "name": "Idea vs. Team", 
+              "link": "http://www.rexblog.com/2013/04/24/49208"
+            },
+            {
+              "name": "Dev Price", 
+              "link": "http://fullstack360.wordpress.com/2013/01/28/30-pounds-in-30-days/"
+            },  
+            {
+              "name": "Mobile vs. Web", 
+              "link": "http://philosophically.com/why-were-pivoting-from-mobile-first-to-web-first"
+            }   
           ] 
         },
         { "name": "Process",
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "One Thing", 
+              "link": "http://blog.idonethis.com/post/37113345206/peter-thiels-unorthodox-management-philosophy-of"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "20% Time", 
+              "link": "http://www.codinghorror.com/blog/2012/08/today-is-goof-off-at-work-day.html/"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+              "name": "Working Alone", 
+              "link": "http://www.codinghorror.com/blog/2007/06/in-programming-one-is-the-loneliest-number.html"
+            },
+            {
+              "name": "2 Periods", 
+              "link": "http://calnewport.com/blog/2011/11/11/if-youre-busy-youre-doing-something-wrong-the-surprisingly-relaxed-lives-of-elite-achievers/"
+            },  
+            {
+              "name": "Productivity", 
+              "link": "http://lifehacker.com/5955115/find-the-right-routine-to-surf-productivity"
+            },
+            {
+              "name": "Pitfalls", 
+              "link": "http://bookofhook.blogspot.com/2013/03/smart-guy-productivity-pitfalls.html"
+            },  
+            {
+              "name": "Remote 1", 
+              "link": "http://blog.stackoverflow.com/2013/02/why-we-still-believe-in-working-remotely/"
+            },
+            {
+              "name": "Remote 2", 
+              "link": "http://www.codinghorror.com/blog/2010/05/on-working-remotely.html"
+            },  
+            {
+              "name": "Email Transparency", 
+              "link": "https://stripe.com/blog/email-transparency"
+            },
+            {
+              "name": "Process Myth", 
+              "link": "http://www.randsinrepose.com/archives/2013/01/01/the_process_myth.html"
+            },  
+            {
+              "name": "Debriefing", 
+              "link": "http://en.wikipedia.org/wiki/Debriefing"
+            },
+            {
+              "name": "Apps", 
+              "link": "http://blog.groovehq.com/post/46934390013/25-apps-that-our-startup-loves-to-use"
+            },  
+            {
+              "name": "Services", 
+              "link": "http://news.ycombinator.com/item?id=5235137"
+            }   
           ] 
         },
         { "name": "Legal",
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Trolls", 
+              "link": "http://jacquesmattheij.com/my-brush-with-a-patent-troll"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
-            },  
-            {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+              "name": "Read A Patent", 
+              "link": "http://www.danshapiro.com/blog/2010/09/how-to-read-a-patent-in-60-second/"
+            }
           ] 
         },
         { "name": "Starting",
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Growth", 
+              "link": "http://paulgraham.com/growth.html"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "Koolaid", 
+              "link": "http://venturevillage.eu/startup-kool-aid#"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+              "name": "CS-183", 
+              "link": "http://blakemasters.com/peter-thiels-cs183-startup"
+            },
+            {
+              "name": "Startup Class", 
+              "link": "https://www.coursera.org/course/startup"
+            },  
+            {
+              "name": "Start Small", 
+              "link": "http://joel.is/post/34817862059/start-something-small"
+            },
+            {
+              "name": "Fail Fast", 
+              "link": "http://www.pretotyping.org/"
+            },  
+            {
+              "name": "Checklist", 
+              "link": "http://spencerfry.com/startup-launch-checklist"
+            },
+            {
+              "name": "Product First", 
+              "link": "http://blog.mojotech.com/post/46245524128/build-your-product-then-your-business"
+            },  
+            {
+              "name": "The Curve", 
+              "link": "http://www.avc.com/a_vc/2012/03/the-startup-curve.html"
+            },
+            {
+              "name": "Long Guide", 
+              "link": "http://startupguide.com/entrepreneurship/startup-ceo/"
+            },  
+            {
+              "name": "Resource", 
+              "link": "http://mattjackrob.com/articles/"
+            }  
+          ] 
+        },
+        { "name": "Hiring",
+          "show": false,
+          "rabbits": [
+            {
+              "name": "Programmers", 
+              "link": "http://www.codinghorror.com/blog/2012/03/how-to-hire-a-programmer.html"
+            },
+            {
+              "name": "Rockstars", 
+              "link": "http://blog.hirelite.com/dont-hire-just-self-described-awesome-develop"
+            },  
+            {
+              "name": "Parlor Tricks", 
+              "link": "https://37signals.com/svn/posts/3071"
+            },
+            {
+              "name": "Test Drive", 
+              "link": "http://gettingreal.37signals.com/ch08_Kick_the_Tires.php"
+            },  
+            {
+              "name": "Recruiting", 
+              "link": "http://www.youell.com/matt/writing/?p=898"
+            },
+            {
+              "name": "No HR", 
+              "link": "http://www.articulateventures.com/thoughts-on-being-an-employer/getting_hired/"
+            },  
+            {
+              "name": "Confusion", 
+              "link": "http://blog.burhum.com/post/37128895836/you-are-an-amazing-engineer-but-you-are-a-terrible-fit"
+            },
+            {
+              "name": "Old People", 
+              "link": "http://pandodaily.com/2012/12/04/hiring-old-people-the-dangerous-but-necessary-steroids-of-the-startup-world/"
+            },  
+            {
+              "name": "Resources", 
+              "link": "http://blog.kiratalent.com/post/47112553827/12-must-reads-when-recruiting-programmers"
             } 
           ] 
         }
