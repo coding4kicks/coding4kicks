@@ -121,7 +121,11 @@
             {
               "name": "Mobile vs. Web", 
               "link": "http://philosophically.com/why-were-pivoting-from-mobile-first-to-web-first"
-            }   
+            },  
+            {
+              "name": "Market First", 
+              "link": "http://www.pfinn.net/markets-not-ideas-for-bootstrappers-founders.html"
+            }    
           ] 
         },
         { "name": "Process",
@@ -185,13 +189,26 @@
           "show": false,
           "rabbits": [
             {
+              "name": "Law", 
+              "link": "http://startuplawyer.com/"
+            },
+            {
               "name": "Trolls", 
               "link": "http://jacquesmattheij.com/my-brush-with-a-patent-troll"
             },
             {
+              "name": "Slaughter", 
+              "link": "http://pandodaily.com/2013/07/26/how-to-slaughter-a-patent-troll-in-5-steps/"
+            },
+            {
               "name": "Read A Patent", 
               "link": "http://www.danshapiro.com/blog/2010/09/how-to-read-a-patent-in-60-second/"
+            },
+            {
+              "name": "FU BestBuy", 
+              "link": "http://redeye.firstround.com/2012/12/why-first-round-capital-funded-a-lawsuit.html"
             }
+
           ] 
         },
         { "name": "Starting",
