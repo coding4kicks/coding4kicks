@@ -208,7 +208,6 @@
               "name": "FU BestBuy", 
               "link": "http://redeye.firstround.com/2012/12/why-first-round-capital-funded-a-lawsuit.html"
             }
-
           ] 
         },
         { "name": "Starting",
@@ -313,50 +312,120 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "When Not to Listen", 
+              "link": "https://www.helpscout.net/blog/why-steve-jobs-never-listened-to-his-customers/"
             },
             {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+              "name": "Auto Opt-Out", 
+              "link": "http://thenextweb.com/shareables/2013/03/04/classy-fab-stops-sending-you-emails-you-dont-read-even-when-you-dont-ask-them-to/"
             },  
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
+              "name": "Discarding Features", 
+              "link": "http://blog.calbucci.com/2013/03/google-is-about-to-learn-tough-lesson.html"
+            },
+            {
+              "name": "Services", 
+              "link": "http://techcrunch.com/2013/03/19/bigmistakeenterprisestartupsmake/"
+            },  
+            {
+              "name": "Social Login", 
+              "link": "http://identity.mozilla.com/post/45842909320/users-dont-like-social-login"
+            } ,
+            {
+              "name": "Admitting Mistakes", 
+              "link": "http://jakeheis.wordpress.com/2013/04/05/4/"
+            },  
+            {
+              "name": "Apps", 
+              "link": "http://tommorris.org/posts/8070"
+            } ,
+            {
+              "name": "Dark Social", 
+              "link": "http://www.theatlantic.com/technology/archive/2012/10/dark-social-we-have-the-whole-history-of-the-web-wrong/263523/"
             } 
           ] 
         },
-        { "name": "Search",
+        { "name": "Marketing", 
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Marketing", 
+              "link": "http://www.avc.com/a_vc/2011/02/marketing.html"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "Tips", 
+              "link": "http://successfulsoftware.net/2013/03/19/the-brutal-truth-about-marketing-your-software-product/"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+              "name": "Landing Page Checklist", 
+              "link": "http://unbounce.com/landing-pages/checklist/"
+            },
+            {
+              "name": "Hype", 
+              "link": "http://techcrunch.com/2013/03/16/hype/"
+            },  
+            {
+              "name": "Blogging", 
+              "link": "http://antjanus.com/blog/seo/running-a-blog-what-i-did-wrong-and-right-in-2012/"
+            } ,
+            {
+              "name": "Email Bloggers", 
+              "link": "http://www.startupmoon.com/the-arcane-art-of-cold-emailing-bloggers/"
+            },  
+            {
+              "name": "Journalist Resources", 
+              "link": "https://www.dotdotdot.me/Luke-Meyer/Pitch-Your-Thing-To-Journalists---PR-101"
+            }
+          ] 
+        },
+        { "name": "Sales",
+          "show": false,
+          "rabbits": [
+            {
+              "name": "Channels", 
+              "link": "http://www.bothsidesofthetable.com/2010/02/23/the-fallacy-of-channels-startups-beware/"
+            },
+            {
+              "name": "Sales", 
+              "link": "http://www.shoestring.com.au/2013/01/hey-startups-im-calling-bullshit-you-dont-understand-sales/"
+            },  
+            {
+              "name": "Don't Sell Tech", 
+              "link": "http://speckyboy.com/2013/04/18/never-say-wordpress-when-selling-a-web-design-project/"
             } 
           ] 
         },
-        { "name": "AB",
+        { "name": "Research",
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Adwords", 
+              "link": "http://blog.chargeback.cc/2012/11/19/use-adwords-to-find-the-best-title-for-your-hacker-news-post/"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "Kickstarter Tiers", 
+              "link": "http://blog.boundforanything.com/2012/02/how-to-set-tiers-on-kickstarter/"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
+              "name": "SEC", 
+              "link": "http://www.sec.gov/edgar.shtml"
+            } 
+          ] 
+        },
+        { "name": "Pricing",
+          "show": false,
+          "rabbits": [
+            {
+              "name": "SAAS", 
+              "link": "http://www.slideshare.net/kissmetrics/ultimate-guide-to-saas-pricing"
+            },
+            {
+              "name": "Not 37", 
+              "link": "http://www.ginzametrics.com/dont-blindly-model-your-saas-pricing-on-37signals"
+            },  
+            {
+              "name": "Mistakes", 
+              "link": "http://thinktraffic.net/most-common-pricing-mistake"
             } 
           ] 
         },
@@ -364,17 +433,66 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some other trash", 
-              "link": "http://www.facebook.com/"
+              "name": "Bullshit", 
+              "link": "http://allthingsd.com/20121217/andreessen-and-mixpanel-call-for-an-end-to-bullshit-metrics/"
             },
             {
-              "name": "and more", 
-              "link": "http://www.google.com/"
+              "name": "Google", 
+              "link": "http://blog.arkency.com/2012/12/google-analytics-for-developers/"
             },  
             {
-              "name": "better than less", 
-              "link": "http://www.hackernews.com/"
-            } 
+              "name": "More", 
+              "link": "https://mixpanel.com/?from=partner"
+            },
+            {
+              "name": "Heatmaps", 
+              "link": "http://www.crazyegg.com/"
+            },  
+            {
+              "name": "Multiple", 
+              "link": "https://segment.io/"
+            },
+            {
+              "name": "Open Source", 
+              "link": "https://github.com/segmentio/analytics.js"
+            },  
+            {
+              "name": "Watch Scrapers", 
+              "link": "http://spider.io/team/"
+            }   
+          ] 
+        },
+        { "name": "Search",
+          "show": false,
+          "rabbits": [
+            {
+              "name": "Guide", 
+              "link": "http://moz.com/beginners-guide-to-seo"            },
+            {
+              "name": "Exact Match", 
+              "link": "http://moz.com/blog/the-exact-match-domain-playbook-a-guide-and-best-practices-for-emds"
+            },  
+            {
+              "name": "30 Minutes", 
+              "link": "http://buyseech.com/2011/05/31/how-to-get-your-website-on-google-in-under-30-minutes/"
+            },  
+            {
+              "name": "Click Fraud (track conversions)", 
+              "link": "http://www.behind-the-enemy-lines.com/2011/03/uncovering-advertising-fraud-scheme.html#"
+            }  
+          ] 
+        },
+        { "name": "AB",
+          "show": false,
+          "rabbits": [
+            {
+              "name": "7 Mistakes", 
+              "link": "http://visualwebsiteoptimizer.com/split-testing-blog/seven-ab-testing-mistakes-to-stop-in-2013/"
+            },
+            {
+              "name": "Framework", 
+              "link": "http://blog.alexmaccaw.com/abba"
+            }
           ] 
         }
       ]
