@@ -528,34 +528,94 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Necessary?", 
+              "link": "http://cdixon.org/2012/07/19/shoehorning-startups-into-the-vc-model/"
             },
             {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+              "name": "Lowball", 
+              "link": "http://www.inc.com/kathleen-kim/y-combinator-advisor-sends-seed-funding-warning.html"
             },  
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+              "name": "Swan Farming", 
+              "link": "http://paulgraham.com/swan.html"
+            },
+            {
+              "name": "YC Guide", 
+              "link": "http://www.guidetoyc.com/the-guide/0-readme/"
+            },  
+            {
+              "name": "A Crunch", 
+              "link": "http://pandodaily.com/2012/11/28/the-series-a-crunch-is-hitting-now-have-we-even-noticed/"
+            },
+            {
+              "name": "Long Term", 
+              "link": "http://pandodaily.com/2012/11/30/evernote-raises-another-85m-as-it-seeks-to-get-short-termers-out-well-before-an-ipo/"
+            },  
+            {
+              "name": "Watchout", 
+              "link": "http://www.startupcfo.ca/2013/01/who-not-to-take-money-from/"
+            },
+            {
+              "name": "Zombies 1", 
+              "link": "http://www.daniellemorrill.com/2013/04/zombie-vcs/"
+            },  
+            {
+              "name": "Zombies 2", 
+              "link": "http://freddestin.com/2013/04/zombie-vcs-take-ii-how-to-spot-an-active-firm.html"
+            },
+            {
+              "name": "Founding CEOs", 
+              "link": "http://bhorowitz.com/2010/04/28/why-we-prefer-founding-ceos/"
+            },  
+            {
+              "name": "Hacks", 
+              "link": "http://venturehacks.com/"
+            }     
           ] 
         },
         { "name": "Finance", 
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Private Equity", 
+              "link": "http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CDcQFjAA&url=http%3A%2F%2Fwww.federalreserve.gov%2Fpubs%2Fstaffstudies%2F1990-99%2Fss168.pdf&ei=GxzQUL__FubQ2QWW84HQBA&usg=AFQjCNFtOWNMIh-EasH8-N_8Jmo7hgdEEg&sig2=QSSo7PsMBm6FrTY8uodTzw&bvm=bv.1355534169,d.b2I"
             },
             {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+              "name": "Party Rounds", 
+              "link": "http://blog.eladgil.com/2010/09/party-rounds-how-to-get-high-valuation.html"
             },  
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+              "name": "Term Sheets", 
+              "link": "http://ycombinator.com/seriesaa.html"
+            },
+            {
+              "name": "Handshake", 
+              "link": "http://ycombinator.com/hdp.html"
+            },  
+            {
+              "name": "Angels", 
+              "link": "https://angel.co/"
+            },
+            {
+              "name": "Selling", 
+              "link": "https://medium.com/on-startups/6a25c0cbd358"
+            },  
+            {
+              "name": "Interesting", 
+              "link": "http://ocw.mit.edu/courses/sloan-school-of-management/15-431-entrepreneurial-finance-spring-2011/index.htm"
+            },
+            {
+              "name": "To Do", 
+              "link": "http://ocw.mit.edu/courses/sloan-school-of-management/15-391-early-stage-capital-fall-2010/"
+            },  
+            {
+              "name": "Consulting", 
+              "link": "https://training.kalzumeus.com/newsletters/archive/consulting_1"
+            },
+            {
+              "name": "Seats", 
+              "link": "http://blogs.wsj.com/accelerators/2013/06/17/steve-blank-dont-give-away-your-board-seats/"
+            }     
           ] 
         }
       ]
