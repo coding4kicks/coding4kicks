@@ -570,84 +570,183 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Earn or Learn", 
+              "link": "http://www.bothsidesofthetable.com/2009/11/04/is-it-time-for-you-to-earn-or-to-learn/"
             },
             {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+              "name": "Paradigm Shifts", 
+              "link": "http://www.amazon.com/gp/product/0226458083/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0226458083&linkCode=as2&tag=coding4kicks-20"
             },  
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
-          ] 
-        },
-        { "name": "Character", 
-          "show": false,
-          "rabbits": [
-            {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Math", 
+              "link": "http://terrytao.wordpress.com/career-advice/there%E2%80%99s-more-to-mathematics-than-rigour-and-proofs/"
             },
             {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+              "name": "Physics", 
+              "link": "http://www.physics.ohio-state.edu/~kilcup/262/feynman.html"
             },  
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+              "name": "Idea != Happiness", 
+              "link": "http://www.quora.com/Startup-Advice-and-Strategy/As-first-time-entrepreneurs-what-part-of-the-process-are-people-often-completely-blind-to/answer/Mike-Sellers"
+            },
+            {
+              "name": "Research", 
+              "link": "http://cacm.acm.org/blogs/blog-cacm/157012-phds-from-the-facultys-perspective/fulltext"
+            },  
+            {
+              "name": "Rome", 
+              "link": "http://www.amazon.com/gp/product/0140437649/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0140437649&linkCode=as2&tag=coding4kicks-20"
+            }   
           ] 
         },
         { "name": "Case Studies", 
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "PayPal", 
+              "link": "http://www.quora.com/PayPal/What-strong-beliefs-on-culture-for-entrepreneurialism-did-Peter-Max-David-have-at-PayPal/answer/Keith-Rabois"
             },
             {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+              "name": "Lean Fail", 
+              "link": "http://wordsting.com/copywriter-blog/fat-startup-learn-the-lessons-of-my-failed-lean-startup"
             },  
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+              "name": "A Good Pivot", 
+              "link": "http://www.avc.com/a_vc/2013/04/you-are-working-too-hard-and-not-getting-anywhere.html"
+            },  
+            {
+              "name": "30 Days to Live", 
+              "link": "http://mystartuphas30daystolive.tumblr.com/"
+            },  
+            {
+              "name": "A Postmortem", 
+              "link": "http://diffle-history.blogspot.com/2008/06/postmortem.html"
+            },  
+            {
+              "name": "33 Lessons", 
+              "link": "http://www.businessinsider.com/33-startups-that-died-reveal-why-they-failed-2013-6?op=1"
+            },  
+            {
+              "name": "Positive Deviance", 
+              "link": "http://opinionator.blogs.nytimes.com/2013/02/27/when-deviants-do-good/"
+            },  
+            {
+              "name": "When Things Don't Work", 
+              "link": "http://www.avc.com/a_vc/2013/03/when-things-dont-work-out.html#"
+            },  
+            {
+              "name": "Your Own Rules", 
+              "link": "https://medium.com/tech-talk/6152adc41de9"
+            }       
+          ] 
+        },
+        { "name": "Character", 
+          "show": false,
+          "rabbits": [
+            {
+              "name": "Self Criticism", 
+              "link": "http://www.aaronsw.com/weblog/semmelweis"
+            },
+            {
+              "name": "Kindness", 
+              "link": "http://blogs.hbr.org/taylor/2012/08/its_more_important_to_be_kind.html"
+            },  
+            {
+              "name": "Perspective", 
+              "link": "http://steveblank.com/2012/09/04/entrepreneurship-is-hard-but-you-cant-die/"
+            },  
+            {
+              "name": "Are You Better Than a Janitor?", 
+              "link": "http://www.homeofheroes.com/profiles/profiles_crawford_10lessons.html"
+            },  
+            {
+              "name": "I Don't Know", 
+              "link": "http://cognoscenti.wbur.org/2012/10/16/the-courage-to-say-i-dont-know-leah-hager-cohen"
+            },  
+            {
+              "name": "Giving Feedback", 
+              "link": "http://bhorowitz.com/2012/10/17/making-yourself-a-ceo/"
+            },  
+            {
+              "name": "Dumb Title, Great Book", 
+              "link": "http://www.amazon.com/gp/product/0671027034/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0671027034&linkCode=as2&tag=coding4kicks-20"
+            },  
+            {
+              "name": "Automate", 
+              "link": "http://stevecorona.com/how-i-automated-the-boring-parts-of-life"
+            },  
+            {
+              "name": "Execute", 
+              "link": "http://mattjackrob.com/2012/11/13/why-we-dont-hire-anyone-with-an-mba/"
+            },
+            {
+              "name": "Redis", 
+              "link": "http://www.thestartup.eu/2011/01/an-interview-with-salvatore-sanfilippo-creator-of-redis-working-out-of-sicily/"
+            },  
+            {
+              "name": "Local vs. Global", 
+              "link": "http://sivers.org/local"
+            },  
+            {
+              "name": "Authentic", 
+              "link": "http://techcrunch.com/2012/12/01/the-path-to-a-culture-of-success-is-paved-with-authentic-leadership/"
+            },  
+            {
+              "name": "Three Traits", 
+              "link": "http://bhorowitz.com/2010/03/14/notes-on-leadership-be-like-steve-jobs-and-bill-campbell-and-andy-grove/"
+            },  
+            {
+              "name": "My Fault", 
+              "link": "ttp://sivers.org/my-fault"
+            },  
+            {
+              "name": "Kubrick and Details", 
+              "link": "http://future-bits.com/stanley-kubrick-held-his-own-camera/"
+            },  
+            {
+              "name": "Different Skils", 
+              "link": "http://pandodaily.com/2013/01/01/your-2013-resolution-come-to-terms-with-being-only-an-engineer/"
+            },  
+            {
+              "name": "Pay", 
+              "link": "http://techcrunch.com/2008/09/08/peter-thiel-best-predictor-of-startup-success-is-low-ceo-pay/"
+            },
+            {
+              "name": "Tips", 
+              "link": "http://www.artofmanliness.com/2013/03/20/7-tips-for-successfully-completing-boot-camp-or-any-intense-training-experience-courtesy-of-wwii-marines/"
+            },  
+            {
+              "name": "Care", 
+              "link": "http://helloarchenemy.tumblr.com/post/47626827569/the-underappreciated-power-of-common-courtesy"
+            },  
+            {
+              "name": "Creativity", 
+              "link": "http://www.brainpickings.org/index.php/2012/04/12/john-cleese-on-creativity-1991/"
+            },  
+            {
+              "name": "Lies", 
+              "link": "http://bhorowitz.com/2012/02/29/lies-that-losers-tell/"
+            },  
+            {
+              "name": "Conference Ho", 
+              "link": "http://www.bothsidesofthetable.com/2010/10/13/be-careful-not-to-become-a-conference-ho/"
+            }    
           ] 
         },
         { "name": "Business Models", 
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Internet", 
+              "link": "https://hackpad.com/EgXuEtSibE7#Web-And-Mobile-Revenue-Models-%28final%29"
             },
             {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
+              "name": "Low Margins", 
+              "link": "http://www.eugenewei.com/blog/2012/11/28/amazon-and-margins"
             },  
             {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
-          ] 
-        },
-        { "name": "E-Commerce", 
-          "show": false,
-          "rabbits": [
-            {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
-            },
-            {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
-            },  
-            {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
+              "name": "Overselling", 
+              "link": "http://www.dreamhost.com/dreamscape/2006/05/18/the-truth-about-overselling/"
             } 
           ] 
         }
