@@ -507,17 +507,13 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
+              "name": "Stock", 
+              "link": "http://stason.org/articles/money/investing/everything_you_ever_wanted_to_know_about_employment_and_stock_options_plan.html#.Ufx_7-tQ2wZ"
             },
             {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
-            },  
-            {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+              "name": "Dashboard", 
+              "link": "http://christophjanz.blogspot.de/2013/04/a-kpi-dashboard-for-early-stage-saas.html"
+            }
           ] 
         }
       ]
@@ -667,17 +663,9 @@
           "show": false,
           "rabbits": [
             {
-              "name": "some crazy cool", 
-              "link": "http://www.nbcnews.com/"
-            },
-            {
-              "name": "funky dunky stuff", 
-              "link": "http://www.foxnews.com/"
-            },  
-            {
-              "name": "and 1 more time", 
-              "link": "http://www.cnn.com/"
-            } 
+              "name": "Mish", 
+              "link": "http://globaleconomicanalysis.blogspot.com/"
+            }
           ] 
         }
       ]
