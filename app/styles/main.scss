@@ -33,7 +33,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-    background: black;
+    background: #222233;
 }
 
 /*
@@ -111,9 +111,10 @@ html {
 }
 
 h2 {
-  font-family: 'dijkstraregular';
+  /*font-family: 'dijkstraregular';*/
   font-weight: normal;
-  color: #3333DD;
+  color: #bbaaaa;
+  font-size: 1.5em;
 }
 
 h3 {
@@ -124,13 +125,13 @@ h3 {
 
 h4 {
   font-family: 'arial', 'helvetica', 'sans-serif';
-  color: #0000CC;
+  color: #bbaaaa;
 }
 
 h5 {
   font-family: 'arial', 'helvetica', 'sans-serif';
   font-weight: normal;
-  color: #FF0000;
+  color: #FFFFFF;
 }
 
 /* ------------ LAYOUT ---------------*/
@@ -170,25 +171,22 @@ text-align: center;
 /* ------------ MAIN PAGE---------------*/
 
 #c4k-title {
-    background-image: url("../images/index/c4k-title.png");
-    width: 240px;
-    height: 50px;
-    color: red;
+    /*background-image: url("../images/index/c4k-title.png");*/
+    color: #bbaaaa;
     margin: 80px auto 0px auto;
 }
 
 #rabbit {
-    width: 131px; /* Go Wildcats */
-    height: 131px;
+    width: 70px;
+    height: 70px;
     margin: 20px auto 0px auto;
 }
 
 #tricky-words {
-    background-image: url("../images/index/tricky-words.png");
-    width: 330px;
-    height: 50px;
-    color: blue;
-    margin: 20px 95px 0px;
+    /*background-image: url("../images/index/tricky-words.png");*/
+    color: #ffffff;
+    margin: 20px auto;
+    padding-left: 10px;
 }
 
 #identity {
@@ -196,7 +194,7 @@ text-align: center;
     width: 50px;
     height: 20px;
     color: blue;
-    margin: 20px 240px 0px;
+    margin: 0 auto;
 }
 
 #buy-buy-buy {
